@@ -1,0 +1,36 @@
+body{
+	overflow: hidden;
+}
+
+.app-div {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: scroll;
+}
+
+/*Fonts*/
+
+@font-face {
+	font-family: 'Audiowide';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/font/Audiowide/audiowide-v6-latin-regular.eot');
+	src: local('Audiowide Regular'), local('Audiowide-Regular'), url('/font/Audiowide/audiowide-v6-latin-regular.eot?#iefix') format('embedded-opentype'), url('/font/Audiowide/audiowide-v6-latin-regular.woff2') format('woff2'), url('/font/Audiowide/audiowide-v6-latin-regular.woff') format('woff'), url('/font/Audiowide/audiowide-v6-latin-regular.ttf') format('truetype'), url('/font/Audiowide/audiowide-v6-latin-regular.svg#Audiowide') format('svg');
+}
+
+@font-face {
+	font-family: 'Monoton';
+	src: url('/font/Monoton/monoton.eot');
+	src: url('/font/Monoton/monoton.eot?#iefix') format('embedded-opentype'), url('/font/Monoton/monoton.woff2') format('woff2'), url('/font/Monoton/monoton.woff') format('woff'), url('/font/Monoton/monoton.ttf') format('truetype'), url('/font/Monoton/monoton.svg#svgFontName') format('svg')
+}
+
+@font-face {
+	font-family: 'Gloria Hallelujah';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/font/Gloria/gloria-hallelujah-v9-latin-regular.eot');
+	src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url('/font/Gloria/gloria-hallelujah-v9-latin-regular.eot?#iefix') format('embedded-opentype'), url('/font/Gloria/gloria-hallelujah-v9-latin-regular.woff2') format('woff2'), url('/font/Gloria/gloria-hallelujah-v9-latin-regular.woff') format('woff'), url('/font/Gloria/gloria-hallelujah-v9-latin-regular.ttf') format('truetype'), url('/font/Gloria/gloria-hallelujah-v9-latin-regular.svg#GloriaHallelujah') format('svg');
+}

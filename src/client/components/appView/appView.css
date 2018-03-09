@@ -1,0 +1,121 @@
+.center {
+	font-family: 'Monoton', cursive;
+	font-size: 120px;
+	text-align: center;
+	opacity: 0;
+	position: relative;
+	top: 0;
+	color: rgb(236, 12, 15);
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	height: 100vh;
+	background-color: rgb(23, 13, 13);
+	color: #f75555;
+}
+
+.outer {
+	display: flex;
+	height: 100vh;
+}
+
+.inner {
+	justify-content: center;
+	align-self: center;
+}
+
+.font {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 60px;
+}
+
+.left-font {
+	font-family: 'Audiowide', cursive;
+	font-size: 60px;
+	display: inline-block;
+	position: relative;
+	left: 0;
+}
+
+.facebook-icon {
+	color: #3B5998;
+	font-size: 30px;
+	position: absolute;
+	right: 68px;
+}
+
+.twitter-icon {
+	color: #0084b4;
+	font-size: 30px;
+	text-align: center;
+}
+
+.instagram-icon {
+	color: #8a3ab9;
+	font-size: 30px;
+	position: relative;
+	left: 100px;
+}
+
+.fa-facebook:hover{
+	cursor: pointer;
+}
+
+.fa-twitter:hover{
+	cursor: pointer;
+}
+
+.fa-instagram:hover{
+	cursor: pointer;
+}
+
+.top-row {
+	padding-bottom: 42px;
+}
+
+.timer-row {
+	padding-bottom: 50px;
+}
+
+@media(max-width: 570px) {
+	.font {
+		font-size: 26px;
+		top: 9px;
+		position: relative;
+	}
+	.left-font {
+		padding-left: 12px;
+	}
+	.instagram-icon {
+		left: 44px;
+	}
+}
+
+@media(max-width: 766px) and (min-width: 571px) {
+	.font {
+		font-size: 42px;
+		top: -16px;
+		position: relative;
+	}
+}
+
+@media(max-width: 1199px) and (min-width: 767px) {
+	.font {
+		left: 12px;
+		top: -38px;
+		position: relative;
+	}
+}
+
+.visiblex{
+	opacity: 1;
+}
+
+.hiddenx{
+	opacity: 0;
+}
+

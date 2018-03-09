@@ -1,0 +1,122 @@
+.navbar-default .navbar-nav>li>a {
+	color: #F2F4F7 !important;
+}
+
+.custom-navbar {
+	margin-bottom: 0;
+	background-color: #101010;
+}
+
+a.navbar-brand.active {
+	color: #F2F4F7;
+}
+
+.custom-navbar .navbar-brand {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+	color: #000;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+	line-height: 40px;
+	transition: all 0.4s ease-in-out;
+}
+
+.custom-navbar .nav li a:hover {
+	background: transparent;
+	color: rgb(125, 23, 27);
+}
+
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
+	background-color: transparent;
+}
+
+.custom-navbar .nav li.active>a {
+	background-color: transparent;
+	color: #66ccff;
+}
+
+.custom-navbar .navbar-toggle {
+	border: none;
+	padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+	background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+	background: #ffffff;
+	border-color: transparent;
+}
+
+.my-nav {
+	background-color: #34374C !important;
+	border: none !important;
+}
+
+@media(min-width:768px) {
+	.custom-navbar {
+			/* padding: 20px 0; */
+			border-bottom: 0;
+			background: 0 0;
+	}
+	.custom-navbar.top-nav-collapse {
+			background: #101010;
+			padding: 0;
+	}
+}
+
+@media (max-width: 1000px) {
+	.my-nav .navbar-header {
+			float: none;
+	}
+	.my-nav .navbar-left,
+	.navbar-right {
+			float: none !important;
+	}
+	.my-nav .navbar-toggle {
+			display: block;
+	}
+	.my-nav .navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	.my-nav .navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+	}
+	.my-nav .navbar-collapse.collapse {
+			display: none !important;
+	}
+	.my-nav .navbar-nav {
+			float: none !important;
+			margin-top: 7.5px;
+			margin-left: -15px;
+	}
+	.my-nav .navbar-nav>li {
+			float: none;
+	}
+	.my-nav .navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+	}
+	.my-nav .collapse.in {
+			display: block !important;
+	}
+}
+
+.navbar-active {
+	background-color: red;
+}
+
+.nav-link:hover {
+	background-color: #787ea1 !important;
+}

@@ -1,0 +1,27 @@
+.image{
+	background-image: url('/images/blog.jpg');
+	min-height: 300px !important;
+}
+
+.blog-image{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.thumbnail{
+	border: none !important;
+}
+
+.facebook-blog-share{
+	float: right;
+}
+
+.twitter-blog-share{
+	float: right;
+	padding-right: 6px;
+}
+
+.whatsapp-blog-share{
+	float: right;
+	padding-right: 6px;
+}
