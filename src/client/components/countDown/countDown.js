@@ -49,13 +49,13 @@ class CountDown extends React.Component{
 
 	render(){
 		return(
-			<div className='col-xs-12  blur-in'>
+			<div className='col-xs-12  blur-in countdown-color'>
 				<div  className='countdown-flex'>
 					{
 						Object.keys(this.state.remaining).map( (index) => {
 							if(index==='Days'){
 								return(
-									<div className='countdown-flex-each col-xs-4' key={index}>
+									<div className='countdown-flex-each col-xs-3 col-sm-offset-2 col-sm-2' key={index}>
 										<div>{this.state.remaining[index]}</div>
 										<div>{index}</div>
 									</div>
@@ -71,7 +71,7 @@ class CountDown extends React.Component{
 							}
 							else if(index==='Min'){
 								return(
-									<div className='countdown-flex-each col-xs-offset-0 col-xs-3 col-sm-offset-1 col-sm-2' key={index}>
+									<div className='countdown-flex-each col-xs-3 col-sm-2' key={index}>
 										<div>{this.state.remaining[index]}</div>
 										<div>{index}</div>
 									</div>
@@ -79,7 +79,7 @@ class CountDown extends React.Component{
 							}
 							else{
 								return(
-									<div className='countdown-flex-each col-xs-2' key={index}>
+									<div className='countdown-flex-each col-xs-3 col-sm-2' key={index}>
 										<div>{this.state.remaining[index]}</div>
 										<div>{index}</div>
 									</div>

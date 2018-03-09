@@ -26,15 +26,42 @@ class BlogView extends React.Component{
 	}
 
 	render(){
+
+		const Icon = () => (
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
+				x="0px" y="0px" viewBox="0 0 36.1 25.8" 
+				enableBackground="new 0 0 36.1 25.8">
+				<g><line fill="none" stroke="#FFFFFF" strokeWidth="3" strokeMiterlimit="10" x1="0" y1="12.9" x2="34" y2="12.9">
+				</line><polyline fill="none" stroke="#FFFFFF" strokeWidth="3" strokeMiterlimit="10" points="22.2,1.1 34,12.9 22.2,24.7   ">
+				</polyline></g></svg>
+		);
+
 		const baseUrl = 'http://www.tedxnitsrinagar.com/blog/';
 		return(
-			<div className='container-fluid'>
-				<div className='row'>	
+			<div className= {this.state.blogs === null ? 'container-fluid extend' : 'container-fluid'} >
+				<div className= {this.state.blogs === null ? 'row- width-100' : ''} >
 					{
 						this.state.blogs === null 
 						&&
 						<div>
-							Loading.
+							<div className='loader-view col-xs-offset-6 col-xs-5'>
+								<div className='loader'>
+									<div className='pacman'>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+								</div>
+							</div>
+							<div className='col-xs-12 loading-text'>
+								Fetching data from Falcon Heavy...
+							</div>
 						</div>
 					}
 					{
@@ -49,18 +76,16 @@ class BlogView extends React.Component{
 										<div className="caption">
 											<h3>{blog.heading}</h3>
 											<div className='row'>
-												<div className='col-md-3'> 
-													<Link to = {`/blog/${blog.url}`}>
-														<button className="btn btn-primary">Read More</button>
-													</Link>
+												<div className='col-xs-4'> 
+													<Link to = {`/blog/${blog.url}`} className='btn btn-default btn-md btn-arrow read-more-btn'><span>Read More<Icon/></span></Link>
 												</div>
-												<div className='col-md-offset-3 col-md-6'> 
+												<div className='col-xs-8'> 
 													<FacebookShareButton
 														url={baseUrl+blog.url}
 														quote={blog.heading}
 														className="facebook-blog-share">
 														<FacebookIcon
-															size={30}
+															size={38} 
 															round />
 													</FacebookShareButton>
 													<TwitterShareButton
@@ -68,7 +93,7 @@ class BlogView extends React.Component{
 														title={blog.heading}
 														className="twitter-blog-share">
 														<TwitterIcon
-															size={30}
+															size={38} 
 															round />
 													</TwitterShareButton>
 													<WhatsappShareButton
@@ -77,10 +102,9 @@ class BlogView extends React.Component{
 														separator=" - A Blog on Tedx NIT Srinagar Website - "
 														className="whatsapp-blog-share">
 														<WhatsappIcon 
-															size={30} 
+															size={38} 
 															round />
 													</WhatsappShareButton>
-													<a href='https://www.universe.com/events/tedxnitsrinagar-tickets-srinagar-Z4R597?buttonColor=#3A66E5&buttonText=Get Tickets' >Get Tickets</a>
 												</div>
 											</div>
 										</div>

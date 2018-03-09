@@ -8,12 +8,17 @@ class HeaderView extends React.Component{
 		this.state = {
 			navbar: false
 		};
-		this.toggleNavbar = this.toggleNavbar.bind(this);
 	}
 
-	toggleNavbar(){
+	toggleNavbar = () => {
 		this.setState({
 			navbar: !this.state.navbar
+		});
+	}
+
+	closeNavbar = () => {
+		this.setState({
+			navbar: false
 		});
 	}
 
@@ -31,7 +36,7 @@ class HeaderView extends React.Component{
 							<span className="icon icon-bar"></span>
 							<span className="icon icon-bar"></span>
 						</button>
-						<NavLink to='/' className="navbar-brand" >TEDxNITSrinagar</NavLink>
+						<NavLink to='/' className="navbar-brand" onClick={this.closeNavbar} >TEDxNITSrinagar</NavLink>
 					</div>
 					<div className={this.state.navbar===false ? 'collapse navbar-collapse' : '' }>
 						<ul className="nav navbar-nav navbar-right">

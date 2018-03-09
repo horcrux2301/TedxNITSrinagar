@@ -7,7 +7,7 @@ class OverviewView extends React.Component{
 			<div className='main-div'>
 				<div className='container-fluid'>
 					<div className='row overview-top-section'>
-						<div className='col-md-6 col-sm-6 top-section-text'>
+						<div className='col-sm-6 top-section-text'>
 							<h2>
 							TEDx Program
 							</h2>
@@ -17,8 +17,7 @@ class OverviewView extends React.Component{
 							</p>
 						</div>
 						<div className='col-md-6 col-sm-6'>
-							<img className='top-image-lg' src='images/overview-lg.jpg'/>
-							<img className='top-image-sm' src='images/overview-sm.jpg'/>
+							<img src='images/overview-lg.jpg' className="img-responsive top-image-lg center-block" alt="Responsive image"/>
 						</div>
 					</div>
 					<div className='row overview-middle-section'>
@@ -39,7 +38,7 @@ class OverviewView extends React.Component{
 						</div>
 					</div>
 					<div className='row overview-bottom-section'>
-						<div className='col-md-6 col-xs-6 bottom-section-text'>
+						<div className='col-sm-6 bottom-section-text'>
 							<h2>WATCH VIDEO</h2>
 							<p>The difference between TED and TEDx events are that the former takes more of a global approach while the latter typically focuses on a local community that concentrates on local voices. “Officially, the 'x' in TEDx stands for independently organized TED event - but it's more of a TED multiplied.
 							TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics — from science to business to global issues — in more than 100 languages. Meanwhile, independently run TEDx events help share ideas in communities around the world.</p>

@@ -1,5 +1,5 @@
 body{
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .app-div {
@@ -8,7 +8,7 @@ body{
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	overflow: scroll;
+	/* overflow: scroll; */
 }
 
 /*Fonts*/

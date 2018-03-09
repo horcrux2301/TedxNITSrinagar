@@ -46,6 +46,7 @@
 
 .top-image-lg{
 	display: block;
+	height: 100% !important;
 }
 
 .top-image-sm{

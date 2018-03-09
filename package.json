@@ -12,6 +12,7 @@
     "font-awesome": "^4.7.0",
     "html-webpack-plugin": "^2.30.1",
     "immutable": "^3.8.2",
+    "loaders.css": "^0.1.2",
     "mailchimp-api-v3": "^1.8.0",
     "path": "^0.12.7",
     "popmotion": "^8.1.17",

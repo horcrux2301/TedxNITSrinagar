@@ -67,6 +67,11 @@ class RegisterView extends React.Component{
 		});
 	}
 
+	componentWillMount(){
+		document.addEventListener('unii:opened', function (event) { console.log('Window was opened'); }, false);
+		document.addEventListener('unii:closed', function (event) { console.log('Window was closed'); }, false);
+	}
+
 	render(){
 		return(
 			<div className='main-div main-div-bottom register-main'>
@@ -102,6 +107,7 @@ class RegisterView extends React.Component{
 											<p>Please enter less than 500 characters.</p>
 											}
 											<button type="submit" className="btn btn-default" disabled={this.state.disabled}>Submit</button>
+											<a href='https://www.universe.com/events/tedxnitsrinagar-tickets-srinagar-Z4R597?buttonColor=#3A66E5&buttonText=Get Tickets' >Get Tickets</a>
 										</form>
 								}
 								{
@@ -122,6 +128,7 @@ class RegisterView extends React.Component{
 										<div>
 											There was an error.
 											<button className='btn btn-default' onClick={this.reset}>Retry</button>
+											
 										</div>
 								}
 							</div>

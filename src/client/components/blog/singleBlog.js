@@ -20,16 +20,16 @@ class SingleBlogView extends React.Component{
 				data: snapshot.val()
 			});
 		})
-		.catch( (exception) => {
-			console.log(exception);
-		});
+			.catch( (exception) => {
+				console.log(exception);
+			});
 	}
 
 	render(){
 		if(this.state.data===null){
 			return(
 				<div className='container'>
-					Loading.
+					Loading...
 				</div>
 			);
 		}
@@ -40,7 +40,7 @@ class SingleBlogView extends React.Component{
 					<div className='row blog-main'>
 						<div className='blog-image'>{this.state.data.image}</div>
 						<div className='blog-text'>
-						{this.state.data.content}
+							{this.state.data.content}
 						</div>
 					</div>
 				</div>

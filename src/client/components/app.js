@@ -13,6 +13,7 @@ import {SpeakerNew} from './speaker-new';
 import 'bootstrap/dist/css/bootstrap.css';
 import './app.css';
 import 'font-awesome/css/font-awesome.min.css';
+import 'loaders.css/loaders.min.css';
 
 class App extends React.Component{
 

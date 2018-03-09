@@ -6,3 +6,15 @@
 .countdown-flex-each {
 	font-family: Audiowide;
 }
+
+.countdown-color{
+	color: white;
+}
+
+.countdown-row {
+	margin-bottom: 80px;
+}
+
+.countdown-text {
+	text-align: center;
+}
