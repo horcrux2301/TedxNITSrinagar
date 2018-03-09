@@ -1,0 +1,93 @@
+/* .intro {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: url('/images/front1.jpg') 50% 0 repeat-y fixed;
+	background-size: cover; */
+	/* text-align: center; */
+	/* background-position: center center; */
+	/* -webkit-background-size: cover; */
+	/* -webkit-align-items: center; */
+	/* align-items: center; */
+	/* display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	color: #ffffff; */
+	/* height: 100vh; */
+/* } */
+
+.intro-main{
+	background-color: #EE2B47;
+}
+
+.intro h3 {
+letter-spacing: 2px;
+}
+
+.intro .btn-danger{
+	margin-left: 10px;
+}
+
+.intro-div{
+	position: absolute;
+  left: 100px;
+  top: 17%;
+}
+
+.top-left{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.timer-row{
+	margin-top: 12px;
+	font-size: 20px;
+}
+
+.intro .register-btn{
+	background: rgb(256,46,31);
+	border-radius: 0px;
+	border: 2px solid #ffffff;
+	letter-spacing: 1px;
+	padding: 14px 42px;
+	transition: all 0.3s ease-in-out;
+	font-weight: 400;
+}
+
+@keyframes bounceUp{
+	0%{
+			margin-top: 5%;
+			opacity: 0
+	}
+	/* 60%{
+			margin-top: 3%;
+			opacity: 0
+	} */
+	100%{
+			margin-top: 2%;
+			opacity: 1
+	}
+}
+
+
+.scrolling-text{
+	/* animation: bounceUp 2s linear; */
+}
+
+.scrolling-text-set{
+	color: black;
+	font-size: 20px;
+}
+
+.intro-view-top{
+	height: 30%;
+}
+
+.intro-view-bottom{
+	height: 30%;
+}

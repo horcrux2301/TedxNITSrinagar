@@ -3,11 +3,12 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const config = {
 	entry: './src/client/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, '../dist'),
 		filename: 'app.dist.js',
 		publicPath: '/'
 	},
@@ -62,7 +63,8 @@ const config = {
 				to: 'sitemap.xml',
 				toType: 'file'
 			},
-		])
+		]),
+		new BundleAnalyzerPlugin()
 	]
 };
 

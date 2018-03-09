@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
 	entry: './src/client/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, '../dist'),
 		filename: 'app.dist.js',
 		publicPath: '/'
 	},
@@ -39,6 +39,7 @@ const config = {
 		inline: true,
 		contentBase: './dist',
 		port: '8081',
+		
 	},
 	plugins: [
 		new HtmlWebpackPlugin({

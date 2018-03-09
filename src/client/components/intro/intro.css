@@ -1,0 +1,157 @@
+.intro-main {
+	background: url('/images/1122.jpg') 50% 0 repeat-y fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+.countdown-row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.countdown-text {
+	text-align: center;
+}
+
+.register-row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.register-button {
+	text-align: center;
+}
+
+.scroll-text-row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.scroll-text-row {
+	text-align: center;
+	color: white;
+	/* border: 1px solid red; */
+}
+
+.example-enter {
+	opacity: 0.1;
+	transform: translate(0px, 20px);
+}
+
+.example-enter.example-enter-active {
+	opacity: 0.99;
+	transform: translate(0px, 0px);
+	transition: transform 1s ease;
+	animation-timing-function: linear;
+}
+
+.example-leave {
+	opacity: 0;
+}
+
+.example-leave.example-leave-active {
+	opacity: 0;
+}
+
+.intro-btn {
+	text-align: center;
+}
+
+.intro-btn .btn {
+	border-radius: 2px;
+	padding: 14px 42px;
+	letter-spacing: 1px;
+}
+
+@-webkit-keyframes slideInUp {
+	0% {
+		-webkit-transform: translateY(100%);
+		transform: translateY(100%);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideInUp {
+	0% {
+		-webkit-transform: translateY(100%);
+		transform: translateY(100%);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+.slideInUp {
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
+	animation-duration: 0.3s;
+}
+
+.intro-main-text {
+	font-size: 60px;
+	text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	animation-duration: 1.0s;
+}
+
+@media only screen and (max-width: 550px) {
+	.timer-row {
+		font-size: 22px;
+		font-weight: 500;
+	}
+}
+
+
+
+/* Redundant Css*/
+
+/* .intro-main {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: url('/images/home1.jpg') 50% 0 repeat-y fixed;
+	background-size: cover; 
+	text-align: center; 
+	background-position: center center;
+	-webkit-background-size: cover;
+	-webkit-align-items: center;
+	align-items: center; 
+	 display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	color: #ffffff; 
+	height: 100vh;
+} */

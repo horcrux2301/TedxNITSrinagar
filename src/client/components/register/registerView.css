@@ -1,0 +1,18 @@
+.characters-left-span {
+	float: right;
+}
+
+.contact-view-image {
+	height: auto;
+	width: auto
+}
+
+.textarea {
+	resize: none;
+}
+
+.intro-align {
+	position: absolute;
+	top: 20%;
+	bottom: 20%;
+}
