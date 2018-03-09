@@ -60,18 +60,16 @@ class IntroView extends React.Component{
 		];
 
 		return(
-			<div className='main-div main-div-bottom' onMouseMove = {this.onMouseMove} >
-				<div className='intro-main'  >
-					<div className='container'>
-						<div className='row countdown-row'>
-							<div className='countdown-text'>
-								<CountDown options={OPTIONS} />
-							</div>
+			<div className='intro-main'  >
+				<div className='container'>
+					<div className='row countdown-row'>
+						<div className='countdown-text'>
+							<CountDown options={OPTIONS} />
 						</div>
-						<div className='row register-row'>
-							<div className='register-button'>
-								<Link to='/register' className='btn btn-default btn-lg'>Register</Link>
-							</div>
+					</div>
+					<div className='row register-row'>
+						<div className='register-button'>
+							<Link to='/register' className='btn btn-default btn-lg'>Register</Link>
 						</div>
 					</div>
 				</div>

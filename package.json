@@ -28,7 +28,8 @@
     "webpack-cli": "^2.0.9"
   },
   "scripts": {
-    "server": "nodemon servernew.js",
+    "server-dev": "nodemon serverdev.js",
+    "server-prod": "nodemon serverprod.js",
     "build": "NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
     "build-dev": "NODE_ENV=development webpack --config webpack/webpack.dev.config.js",
     "start": "webpack --config webpack/webpack.config.dev.js --watch"
