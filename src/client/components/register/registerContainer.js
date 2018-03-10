@@ -3,7 +3,7 @@
 import React from 'react';
 import { Container } from 'flux/utils';
 import { MainActions, MainStore } from '../../utility';
-import RegisterView from './registerView';
+import RegisterView from './registerView1';
 
 class RegisterViewContainer extends React.Component {
 	static getStores() {

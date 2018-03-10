@@ -1,0 +1,26 @@
+.contact-main{
+	background-color: black;
+	color: white;
+}
+
+/* .height-100{
+	height: 100%;
+} */
+
+.organizer-image{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: cover;
+	display: inline-block;
+}
+
+.organizer-heading{
+	text-align: center;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.organizer-single{
+	text-align: center;
+}

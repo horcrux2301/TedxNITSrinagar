@@ -4,6 +4,7 @@ import axios from 'axios';
 
 const Actions = {
 	signUpForm(data){
+		console.log(data);
 		axios({
 			method:'post',
 			url:'/mailchimp',
@@ -11,12 +12,14 @@ const Actions = {
 			data: data
 		})
 			.then(function(response) {
+				console.log(response);
 				TedXDispatcher.dispatch({
 					type: MainActionTypes.SUBMIT_FORM_SUCCESS,
 					data: response
 				});
 			})
 			.catch(function(exception){
+				console.log(exception);
 				let message = {
 					'message': 'Error'
 				}

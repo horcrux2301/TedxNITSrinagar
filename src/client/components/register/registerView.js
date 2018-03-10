@@ -10,7 +10,6 @@ class RegisterView extends React.Component{
 		this.state = {
 			name: '',
 			email: '',
-			text: '',
 			message: '',
 			isSubmittingForm:false,
 			disabled: false,
@@ -19,13 +18,19 @@ class RegisterView extends React.Component{
 		};
 	}
 
+	componentDidMount(){
+		document.addEventListener('unii:opened', function (event) {
+			console.log('Ticket was purchased');
+		}, false);
+		document.addEventListener('unii:closed', function (event) { console.log('Window was closed'); }, false);
+	}
+
 	componentWillReceiveProps(nextProps){
 		this.setState({
 			message: nextProps.user.get('message') ,
 			isSubmittingForm: nextProps.user.get('isSubmittingForm') ,
 			name: '',
 			email: '',
-			text: '',
 		});
 	}
 
@@ -34,7 +39,6 @@ class RegisterView extends React.Component{
 		let formData = {};
 		formData.name = this.state.name;
 		formData.email = this.state.email;
-		formData.text = this.state.text;
 		this.setState({
 			isSubmittingForm:true,
 			submitted: true
@@ -44,13 +48,7 @@ class RegisterView extends React.Component{
 
 	inputChange = (e,field) => {
 		let state = this.state;
-		let length = this.refs.why.value.length;
-		if(field==='text' && length<=500)
-			state[field] = e.target.value;
-		else if(field!='text')
-			state[field] = e.target.value;
-		state['disabled'] = length > 500 ? true : false;
-		state['length'] = length;
+		state[field] = e.target.value;
 		this.setState(state);
 	}
 
@@ -58,7 +56,6 @@ class RegisterView extends React.Component{
 		this.setState({
 			name: '',
 			email: '',
-			text: '',
 			message: '',
 			isSubmittingForm:false,
 			disabled: false,
@@ -98,14 +95,6 @@ class RegisterView extends React.Component{
 												<label >Email</label>
 												<input type="email" className="form-control"  placeholder="Email" required onChange={(e) => this.inputChange(e,'email')} value={this.state.email}/>
 											</div>
-											<div className="form-group">
-												<label>Please tell us why you want to be at this event</label> <span className='characters-left-span'> {500-this.state.length>=0 ? 500-this.state.length : 0 } characters left</span>
-												<textarea type="text" className="form-control"  placeholder="Type here..." required onChange={(e) => this.inputChange(e,'text')} value={this.state.text} ref='why' style={{'resize': 'none'}}/>
-											</div>
-											{
-												this.state.disabled && 
-											<p>Please enter less than 500 characters.</p>
-											}
 											<button type="submit" className="btn btn-default" disabled={this.state.disabled}>Submit</button>
 											<a href='https://www.universe.com/events/tedxnitsrinagar-tickets-srinagar-Z4R597?buttonColor=#3A66E5&buttonText=Get Tickets' >Get Tickets</a>
 										</form>
