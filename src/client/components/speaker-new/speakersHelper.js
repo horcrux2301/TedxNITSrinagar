@@ -58,7 +58,7 @@ const SpeakersList = {
 		subHeading: 'CEO and Founder nearbuy.com',
 		imgLg: 'https://i.imgur.com/wn3U7j0.jpg',
 		facebook : 'https://www.facebook.com/awarikoo/',
-		instagram: 'ttps://www.instagram.com/warikoos/?hl=en',
+		instagram: 'https://www.instagram.com/warikoos/?hl=en',
 		twitter: 'https://twitter.com/warikoo',
 		desc: 'An ISB alumnus, who is the cofounder & CEO of famous nearbuy.com .From  a budding physicst & astronaut to mangement consultant & then a serial entrepreneur, he is a shining example of a person at a crossroad  &  eventually climbing the ladder of success. He is also a prolific writer, an enthusiastic photographer & all around curious soul .He is an angel investor endorsing new entrepreneurs. Winner of the Indias most promisng Entrepreneur Award presenting Mr. Ankur warikoo at Tedx NIT Srinagar.',
 	},
