@@ -81,7 +81,7 @@ class IntroView extends React.Component{
 						Tedx NIT Sringar
 						</div>
 						<div className='col-xs-12 heading-date'>
-						15th April, 2017
+						15th April, 2018
 						</div>
 					</div>
 					<div className='row register-row fadeIn'>

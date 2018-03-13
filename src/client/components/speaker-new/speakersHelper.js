@@ -51,7 +51,7 @@ const SpeakersList = {
 		facebook : 'https://www.facebook.com/shah.faesal.3',
 		instagram: '',
 		twitter: 'hhttps://twitter.com/shahfaesal?lang=en',
-		desc: 'A former doctor and a biomedical engineering professor, who took voluntary retirement to dedicate himself to the noble cause of communal harmony in India.He has been putting his mind, body and soul in advocating human rights, promoting secularism, battling the extremism and constantly confronting the rising tide of religious fundamentalism in India.Today, he has been working towards engineering a secular and a plural society, as envisaged by our constitution. He is the voice of voiceless in the society.',
+		desc: 'A man who has inspired and motivated not only the youth of Kashmir but  the rest of country as well.A doctor, journalist and a civil servant who became the first and only IAS topper from J&K through open merit. He is currrntly Managing director of Power Development Corporation J&K . He is determined to make a change where it counts most in common mans life . He wants to bring  a change especially for women and youth . Presenting Dr Shah Faesal atTedx Nit Srinagr who is going to deliver talk that  would be rich in wisdom , experience and fulfillment.',
 	},
 	AnkurWarikoo : {
 		name: 'Ankur Warikoo',
@@ -60,7 +60,7 @@ const SpeakersList = {
 		facebook : 'https://www.facebook.com/awarikoo/',
 		instagram: 'ttps://www.instagram.com/warikoos/?hl=en',
 		twitter: 'https://twitter.com/warikoo',
-		desc: 'A former doctor and a biomedical engineering professor, who took voluntary retirement to dedicate himself to the noble cause of communal harmony in India.He has been putting his mind, body and soul in advocating human rights, promoting secularism, battling the extremism and constantly confronting the rising tide of religious fundamentalism in India.Today, he has been working towards engineering a secular and a plural society, as envisaged by our constitution. He is the voice of voiceless in the society.',
+		desc: 'An ISB alumnus, who is the cofounder & CEO of famous nearbuy.com .From  a budding physicst & astronaut to mangement consultant & then a serial entrepreneur, he is a shining example of a person at a crossroad  &  eventually climbing the ladder of success. He is also a prolific writer, an enthusiastic photographer & all around curious soul .He is an angel investor endorsing new entrepreneurs. Winner of the Indias most promisng Entrepreneur Award presenting Mr. Ankur warikoo at Tedx NIT Srinagar.',
 	},
 	BabarAfsal : {
 		name: 'Babar Afsal',
