@@ -20,7 +20,7 @@ const SpeakersList = {
 	DrMSkhuroo: {
 		name: 'Dr. MS Khuroo',
 		subHeading: 'Discoverer of Hepatitis-E',
-		imgLg: 'https://i.imgur.com/1tXygI0.jpg',
+		imgLg: 'https://i.imgur.com/vsb8scp.jpg',
 		facebook : 'https://www.facebook.com/drkhuroo/',
 		instagram: '',
 		twitter: '',

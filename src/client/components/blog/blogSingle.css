@@ -1,5 +1,30 @@
-.blog-image{
-	height: 300px;
-	width: 300px;
-	float: left;
+@import url('https://fonts.googleapis.com/css?family=Assistant:300');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.blog-heading{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+    font-size: 40px;
+    margin: 25px;
 }
+
+.blog-text{
+    font-family: 'Assistant', sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blog-image{
+	height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width: 991px){
+    .blog-image{
+        background-size: cover;
+    }
+}
+

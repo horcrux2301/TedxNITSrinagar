@@ -3,12 +3,12 @@ import { Switch , Route, Redirect} from 'react-router-dom';
 import {AppView} from './appView';
 import { Header } from './header';
 import {Blog, SingleBlog} from './blog';
-import { Contact } from './contact';
+// import { Contact } from './contact';
 import { Intro } from './intro';
 import { Overview } from './overview';
 import { Register } from './register';
-import { Sponsors } from './sponsors';
-import { Venue } from './venue';
+// import { Sponsors } from './sponsors';
+// import { Venue } from './venue';
 import {SpeakerNew} from './speaker-new';
 import 'bootstrap/dist/css/bootstrap.css';
 import './app.css';
@@ -33,9 +33,9 @@ class App extends React.Component{
 						<Route path='/blog' component={Blog}/>
 						<Route path='/register' component={Register}/>
 						<Route path='/speakers' component={SpeakerNew}/>
-						<Route path='/sponsors' component={Sponsors}/>
+						{/* <Route path='/sponsors' component={Sponsors}/>
 						<Route path='/venue' component={Venue}/>
-						<Route path='/contact' component={Contact}/>
+						<Route path='/contact' component={Contact}/> */}
 						<Redirect to='/home'/>
 					</Switch>
 				</div>

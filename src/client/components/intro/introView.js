@@ -71,12 +71,20 @@ class IntroView extends React.Component{
 		return(
 			<div className='intro-main'  >
 				<div className='container'>
-					<div className='row countdown-row'>
+					{/* <div className='row countdown-row'>
 						<div className='countdown-text'>
 							<CountDown options={OPTIONS} />
 						</div>
+					</div> */}
+					<div className='row heading-intro'>
+						<div className='col-xs-12 heading-main'>
+						Tedx NIT Sringar
+						</div>
+						<div className='col-xs-12 heading-date'>
+						15th April, 2017
+						</div>
 					</div>
-					<div className='row register-row'>
+					<div className='row register-row fadeIn'>
 						<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3'>
 							<div className='register-button '>
 								<Link to='/register' className='btn btn-default btn-lg btn-arrow'><span>Get Tickets<Icon/></span>

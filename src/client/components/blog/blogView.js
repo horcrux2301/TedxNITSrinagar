@@ -69,10 +69,11 @@ class BlogView extends React.Component{
 						&&
 						Object.keys(this.state.blogs).map( (index) => {
 							const blog = this.state.blogs[index];
+							console.log(blog);
 							return(
 								<div className="col-sm-6 col-md-4" key={index}>
 									<div className="thumbnail">
-										<img src='/images/blog.jpg' alt="..."/>
+										<div className='thumbnail-image' style={{'backgroundImage': `url(${blog.imageUrl})`}}></div>
 										<div className="caption">
 											<h3>{blog.heading}</h3>
 											<div className='row'>

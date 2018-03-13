@@ -100,7 +100,7 @@
 .slideInUp {
 	-webkit-animation-name: slideInUp;
 	animation-name: slideInUp;
-	animation-duration: 0.3s;
+	animation-duration: 1.5s;
 }
 
 .intro-main-text {
@@ -129,7 +129,7 @@
 .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
-	animation-duration: 1.0s;
+	animation-duration: 1.5s;
 }
 
 @media only screen and (max-width: 550px) {
@@ -166,8 +166,21 @@
 	height: 100vh;
 } */
 
+.heading-intro{
+	padding-bottom: 100px;
+}
 
+.heading-main{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
 
+.heading-date{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
 
 
 
