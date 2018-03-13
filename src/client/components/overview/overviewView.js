@@ -17,7 +17,7 @@ class OverviewView extends React.Component{
 							</p>
 						</div>
 						<div className='col-md-6 col-sm-6'>
-							<img src='images/overview-lg.jpg' className="img-responsive top-image-lg center-block" alt="Responsive image"/>
+							<img src='https://i.imgur.com/TcbHeBK.png' className="img-responsive top-image-lg center-block" alt="Responsive image"/>
 						</div>
 					</div>
 					<div className='row overview-middle-section'>
