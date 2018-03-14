@@ -169,7 +169,7 @@
 } */
 
 .heading-intro{
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .heading-main{
@@ -182,6 +182,7 @@
 	text-align: center;
 	color: white;
 	font-size: 40px;
+	padding-top: 50px;
 }
 
 
