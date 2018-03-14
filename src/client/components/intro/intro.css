@@ -248,7 +248,7 @@
 
 .heading-inspiring{
 	font-size: 18px;
-    padding-left: 192px;
+    padding-left: 185px;
 	font-family: 'Indie Flower', cursive;
 	color: white;
 }
@@ -261,7 +261,7 @@
 
 @media(max-width: 411px){
 	.heading-main{
-		font-size: 39px;
+		font-size: 37px;
 	}
 	.heading-inspiring{
 		font-size: 18px;
