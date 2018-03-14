@@ -3,7 +3,7 @@ import { Switch , Route, Redirect} from 'react-router-dom';
 import {AppView} from './appView';
 import { Header } from './header';
 import {Blog, SingleBlog} from './blog';
-// import { Contact } from './contact';
+import { Contact } from './contact';
 import { Intro } from './intro';
 import { Overview } from './overview';
 import { Register } from './register';
@@ -33,6 +33,7 @@ class App extends React.Component{
 						<Route path='/blog' component={Blog}/>
 						<Route path='/register' component={Register}/>
 						<Route path='/speakers' component={SpeakerNew}/>
+						<Route path='/contact' component={Contact}/> 
 						{/* <Route path='/sponsors' component={Sponsors}/>
 						<Route path='/venue' component={Venue}/>
 						<Route path='/contact' component={Contact}/> */}

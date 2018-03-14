@@ -78,7 +78,10 @@ class IntroView extends React.Component{
 					</div> */}
 					<div className='row heading-intro'>
 						<div className='col-xs-12 heading-main'>
-						Tedx NIT Sringar
+						TEDx <span>NIT Srinagar</span>
+						</div>
+						<div className='col-xs-12 heading-inspiring-main'>
+							<span className='heading-inspiring'>"always inspiring more"</span>
 						</div>
 						<div className='col-xs-12 heading-date'>
 						15th April, 2018

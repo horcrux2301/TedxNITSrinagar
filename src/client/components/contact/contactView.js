@@ -11,7 +11,7 @@ class ContactView extends React.Component{
 			<div className='main-div height-100'>
 				<div className='container-fluid contact-main height-100'>
 					<div className='row organizer-heading'>
-						Team @ Tedx NIT Srinagar
+						Team @ TEDx NIT Srinagar
 					</div>
 					{
 						Object.keys(List).map( (rowIndex) => {

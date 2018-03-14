@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 .intro-main {
 	background: url('/images/1122.jpg') 50% 0 repeat-y fixed;
 	background-size: cover;
@@ -230,8 +232,39 @@
 	}
 }
 
+.heading-main{
+	color: #e83732;
+}
+
+.heading-main span{
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.heading-inspiring-main{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.heading-inspiring{
+	font-size: 18px;
+    padding-left: 192px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
 /* @media(max-width:1200px){
 	.register-button{
 		padding-top: 170px;
 	}
 } */
+
+@media(max-width: 411px){
+	.heading-main{
+		font-size: 39px;
+	}
+	.heading-inspiring{
+		font-size: 18px;
+		padding-left: 195px;
+	}
+}

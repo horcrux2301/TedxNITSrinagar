@@ -100,7 +100,7 @@ class BlogView extends React.Component{
 													<WhatsappShareButton
 														url={baseUrl+blog.url}
 														title={blog.heading}
-														separator=" - A Blog on Tedx NIT Srinagar Website - "
+														separator=" - A Blog on TEDx NIT Srinagar Website - "
 														className="whatsapp-blog-share">
 														<WhatsappIcon 
 															size={38} 
