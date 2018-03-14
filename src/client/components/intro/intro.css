@@ -261,10 +261,10 @@
 
 @media(max-width: 411px){
 	.heading-main{
-		font-size: 37px;
+		font-size: 32px;
 	}
 	.heading-inspiring{
 		font-size: 18px;
-		padding-left: 195px;
+		padding-left: 180px;
 	}
 }
