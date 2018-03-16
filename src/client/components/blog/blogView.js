@@ -69,7 +69,6 @@ class BlogView extends React.Component{
 						&&
 						Object.keys(this.state.blogs).map( (index) => {
 							const blog = this.state.blogs[index];
-							console.log(blog);
 							return(
 								<div className="col-sm-6 col-md-4" key={index}>
 									<div className="thumbnail">

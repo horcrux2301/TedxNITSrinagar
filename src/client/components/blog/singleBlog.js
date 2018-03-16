@@ -15,13 +15,13 @@ class SingleBlogView extends React.Component{
 		let location = this.props.location.pathname;
 		const blog = location.slice(6,location.length);
 		fire.database().ref('/blog-data/' +  blog).once('value').then((snapshot) => {
-			console.log(snapshot.val());
+			// console.log(snapshot.val());
 			this.setState({
 				data: snapshot.val()
 			});
 		})
 			.catch( (exception) => {
-				console.log(exception);
+				// console.log(exception);
 			});
 	}
 
@@ -55,7 +55,6 @@ class SingleBlogView extends React.Component{
 			);
 		}
 		else{
-			console.log(`url(${this.state.data.imageUrl})`);
 			return(
 				<div className='container'>
 					<div className='row blog-heading'>{this.state.data.heading}</div>
@@ -63,9 +62,9 @@ class SingleBlogView extends React.Component{
 						<div className='com-xs-12 blog-image' style={{'backgroundImage' : `url(${this.state.data.imageUrl})`}}></div>
 						<div className='col-xs-12 blog-text'>
 							{
-								this.state.data.content.map((para) =>{
+								this.state.data.content.map((para,index) =>{
 									return(
-										<p>{para}</p>
+										<p key={index}>{para}</p>
 									);
 								})
 							}

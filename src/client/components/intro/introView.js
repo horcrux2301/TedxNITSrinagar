@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 const OPTIONS = { date: '04/29/2018 11:00 AM', prefix: 'Until TedEx Event!'};
 const scrollTextArray = ['Ideas','Innovation','Science','Inspiration'];
 
+let i=0;
+
 class IntroView extends React.Component{
 	
 	constructor(){
@@ -15,11 +17,28 @@ class IntroView extends React.Component{
 			pageX: null,
 			pageY: null,
 			translate: null,
+			text: '',
 		};
 	}
 
 	componentDidMount(){
-		this.interval = setInterval(this.scrollText,2000);
+		this.interval = setTimeout(this.animatedOne,500);
+		i=0;
+	}
+
+	animatedOne = () => {
+		const txt = '"always inspiring more"';
+		const speed = 130;
+		if (i < txt.length) {
+			let temp = this.state.text;
+			temp+=txt.charAt(i);
+			this.textInput.innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(this.animatedOne, speed);
+			this.setState({
+				text: temp
+			});
+		}
 	}
 
 
@@ -46,19 +65,12 @@ class IntroView extends React.Component{
 	}
 
 	render(){
-		// const items = scrollTextArray.map((item) => (
-		// 	<div key={item}>
-		// 		{item}
-		// 	</div>
-		// ));
-
 		const items = 
 		[
 			<div key={1}>
 				{scrollTextArray[this.state.id]}
 			</div>
 		];
-
 		const Icon = () => (
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
 				x="0px" y="0px" viewBox="0 0 36.1 25.8" 
@@ -78,13 +90,15 @@ class IntroView extends React.Component{
 					</div> */}
 					<div className='row heading-intro'>
 						<div className='col-xs-12 heading-main'>
-						TEDx <span> NIT Srinagar</span>
+						TEDx <span className='nit'>NIT</span> <span>Srinagar</span>
 						</div>
 						<div className='col-xs-12 heading-inspiring-main'>
-							<span className='heading-inspiring'>"always inspiring more"</span>
+							<span className='heading-inspiring' ref = { (input) => this.textInput = input}>
+								{this.state.text}
+							</span>
 						</div>
 						<div className='col-xs-12 heading-date'>
-						15th April, 2018
+						15<sup>th</sup> April, 2018
 						</div>
 					</div>
 					<div className='row register-row fadeIn'>
