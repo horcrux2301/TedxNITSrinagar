@@ -71,6 +71,11 @@ class IntroView extends React.Component{
 		});
 	}
 
+	openSocialMedia  = (url) => {
+		let win = window.open(url, '_blank');
+		win.focus();
+	}
+
 	render(){
 		const items = 
 		[
@@ -118,6 +123,20 @@ class IntroView extends React.Component{
 						<div className='col-xs-6 col-sm-4 col-md-3'>
 							<div className='register-button '>
 								<Link to='/speakers' className='btn btn-default btn-lg btn-arrow'><span>View Speakers<Icon/></span></Link>
+							</div>
+						</div>
+					</div>
+					<div className='intro-footer navbar-fixed-bottom'>
+						<div className='row'>
+							<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 fb-ico'>
+								<i className='fa fa-facebook' onClick={() => this.openSocialMedia('https://www.facebook.com/tedxnitsrinagar')}></i>
+								<i className='fa fa-twitter twit-ico' onClick={() => this.openSocialMedia('https://twitter.com/TEDxNITSrinagar')}></i>
+							</div>
+							{/* <div className='col-xs-4 col-sm-2 twit-ico'>
+								<i className='fa fa-twitter' onClick={() => this.openSocialMedia('https://twitter.com/TEDxNITSrinagar')}></i>
+							</div> */}
+							<div className='col-xs-6 col-sm-4 col-md-3 insta-ico'>
+								<i className='fa fa-instagram' onClick={() => this.openSocialMedia('https://www.instagram.com/tedxnitsrinagar')}></i>
 							</div>
 						</div>
 					</div>

@@ -270,3 +270,25 @@
 		padding-left: 132px;
 	}
 }
+
+.intro-footer{
+	font-size: 30px;
+}
+
+.fb-ico{
+	text-align: center;
+}
+
+.twit-ico{
+	position: absolute;
+	right: -6px;
+	bottom: 8px;
+}
+
+.insta-ico{
+	text-align: center;
+}
+
+.navbar-fixed-bottom{
+	margin-bottom: 5px;
+}
