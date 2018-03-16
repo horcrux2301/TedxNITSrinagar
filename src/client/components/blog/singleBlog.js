@@ -2,6 +2,7 @@ import React from 'react';
 import fire from '../../../../fire';
 import addBlog from './addBlog';
 import './blogSingle.css';
+import ReactGA from 'react-ga';
 
 class SingleBlogView extends React.Component{
 	constructor(){
@@ -23,6 +24,11 @@ class SingleBlogView extends React.Component{
 			.catch( (exception) => {
 				// console.log(exception);
 			});
+
+		ReactGA.initialize('UA-114968623-1');
+		
+		ReactGA.pageview(this.props.location.pathname);
+
 	}
 
 	render(){

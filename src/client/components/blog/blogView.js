@@ -5,6 +5,7 @@ import fire from '../../../../fire';
 import addBlog from './addBlog';
 import { FacebookShareButton, FacebookIcon, TwitterIcon, TwitterShareButton, WhatsappShareButton, WhatsappIcon } from 'react-share';
 import './blog.css';
+import ReactGA from 'react-ga';
 
 class BlogView extends React.Component{
 	constructor(props){
@@ -22,6 +23,8 @@ class BlogView extends React.Component{
 				});
 			});
 		}
+		ReactGA.initialize('UA-114968623-1');
+		ReactGA.pageview(this.props.location.pathname);
 		// addBlog();
 	}
 

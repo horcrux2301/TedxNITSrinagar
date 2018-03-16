@@ -8,6 +8,6 @@ const newHistory = createBrowserHistory();
 
 ReactDOM.render(
 	<Router history={newHistory}>
-		<App />
+		<App/>
 	</Router>
 	, document.getElementById('root'));

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 const OPTIONS = { date: '04/29/2018 11:00 AM', prefix: 'Until TedEx Event!'};
 const scrollTextArray = ['Ideas','Innovation','Science','Inspiration'];
+import ReactGA from 'react-ga';
 
 let i=0;
 
@@ -19,6 +20,12 @@ class IntroView extends React.Component{
 			translate: null,
 			text: '',
 		};
+	}
+
+	componentWillMount(){
+		ReactGA.initialize('UA-114968623-1');
+
+		ReactGA.pageview(this.props.location.pathname);
 	}
 
 	componentDidMount(){

@@ -5,6 +5,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 import './speaker.css';
 import Speaker from './speaker';
 import SpeakerSmall from './speaker2';
+import ReactGA from 'react-ga';
 
 class SpeakerView extends React.Component{
 
@@ -16,6 +17,7 @@ class SpeakerView extends React.Component{
 		};
 	}
 
+
 	handleResize = () => {
 		this.setState({
 			height: window.innerHeight,
@@ -25,6 +27,9 @@ class SpeakerView extends React.Component{
 	}
 
 	componentWillMount(){
+		ReactGA.initialize('UA-114968623-1');
+		console.log(this.props.location.pathname);
+		ReactGA.pageview(this.props.location.pathname);
 		this.setState({
 			width: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
 			height: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)

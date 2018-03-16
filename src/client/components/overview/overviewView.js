@@ -1,7 +1,17 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import './overview.css';
 
 class OverviewView extends React.Component{
+
+
+	componentWillMount(){
+		ReactGA.initialize('UA-114968623-1');
+	
+		ReactGA.pageview(this.props.location.pathname);
+	}
+
+
 	render(){
 		return(
 			<div className='main-div'>
