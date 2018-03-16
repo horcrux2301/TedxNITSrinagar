@@ -28,7 +28,6 @@ class SpeakerView extends React.Component{
 
 	componentWillMount(){
 		ReactGA.initialize('UA-114968623-1');
-		console.log(this.props.location.pathname);
 		ReactGA.pageview(this.props.location.pathname);
 		this.setState({
 			width: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
