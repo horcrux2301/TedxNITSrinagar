@@ -2,10 +2,9 @@ import React from 'react';
 import './intro.css';
 import { CountDown } from '../countDown';
 import { Link } from 'react-router-dom';
-
+import ReactGA from 'react-ga';
 const OPTIONS = { date: '04/29/2018 11:00 AM', prefix: 'Until TedEx Event!'};
 const scrollTextArray = ['Ideas','Innovation','Science','Inspiration'];
-import ReactGA from 'react-ga';
 
 let i=0;
 
@@ -71,7 +70,12 @@ class IntroView extends React.Component{
 		});
 	}
 
-	openSocialMedia  = (url) => {
+	openSocialMedia  = (url, social) => {
+		ReactGA.event({
+			category: 'Social',
+			action: social,
+			label: social
+		});  
 		let win = window.open(url, '_blank');
 		win.focus();
 	}
@@ -129,14 +133,14 @@ class IntroView extends React.Component{
 					<div className='intro-footer navbar-fixed-bottom'>
 						<div className='row'>
 							<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 fb-ico'>
-								<i className='fa fa-facebook' onClick={() => this.openSocialMedia('https://www.facebook.com/tedxnitsrinagar')}></i>
-								<i className='fa fa-twitter twit-ico' onClick={() => this.openSocialMedia('https://twitter.com/TEDxNITSrinagar')}></i>
+								<i className='fa fa-facebook' onClick={() => this.openSocialMedia('https://www.facebook.com/tedxnitsrinagar','facebook')}></i>
+								<i className='fa fa-twitter twit-ico' onClick={() => this.openSocialMedia('https://twitter.com/TEDxNITSrinagar','twitter')}></i>
 							</div>
 							{/* <div className='col-xs-4 col-sm-2 twit-ico'>
 								<i className='fa fa-twitter' onClick={() => this.openSocialMedia('https://twitter.com/TEDxNITSrinagar')}></i>
 							</div> */}
 							<div className='col-xs-6 col-sm-4 col-md-3 insta-ico'>
-								<i className='fa fa-instagram' onClick={() => this.openSocialMedia('https://www.instagram.com/tedxnitsrinagar')}></i>
+								<i className='fa fa-instagram' onClick={() => this.openSocialMedia('https://www.instagram.com/tedxnitsrinagar','instagram')}></i>
 							</div>
 						</div>
 					</div>
