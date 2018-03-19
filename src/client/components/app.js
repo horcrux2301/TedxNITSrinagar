@@ -6,7 +6,7 @@ import {Blog, SingleBlog} from './blog';
 import { Contact } from './contact';
 import { Intro } from './intro';
 import { Overview } from './overview';
-import { Register } from './register';
+import { Register, RegiserTemp } from './register';
 // import { Sponsors } from './sponsors';
 // import { Venue } from './venue';
 import {SpeakerNew} from './speaker-new';
@@ -34,6 +34,7 @@ class App extends React.Component{
 						<Route path='/register' component={Register}/>
 						<Route path='/speakers' component={SpeakerNew}/>
 						<Route path='/contact' component={Contact}/> 
+						<Route path='/temp' component={RegiserTemp}/> 
 						{/* <Route path='/sponsors' component={Sponsors}/>
 						<Route path='/venue' component={Venue}/>
 						<Route path='/contact' component={Contact}/> */}

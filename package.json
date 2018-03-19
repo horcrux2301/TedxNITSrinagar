@@ -27,6 +27,7 @@
     "react-share": "^2.0.0",
     "react-transition-group": "^2.2.1",
     "react-visibility-sensor": "^3.11.0",
+    "uniqid": "^4.1.1",
     "webpack": "3.10.0",
     "webpack-cli": "^2.0.9"
   },

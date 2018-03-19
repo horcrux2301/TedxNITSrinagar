@@ -1,8 +1,10 @@
+
+
 .center-row{
 	position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	text-align: center;
 }
@@ -13,7 +15,11 @@
 
 .ticket-form{
 	display: inline-block;
-	width: 50%;
+	width: 100%;
+	padding-top:50px; 
+	padding-bottom: 50px;
+	padding-left: 10px;
+    padding-right: 10px;
 }
 
 .form-control{
@@ -21,8 +27,7 @@
 	border-top: none !important;
 	border-left: none !important;
 	border-right: none !important;
-	border-bottom: 1px solid black;
-	border-radius: none !important;
+	border-radius: 1px !important;
 }
 
 .form-group label{
@@ -38,12 +43,12 @@
 }
 
 input:focus~.form-label-text {
-	top: -50px;
+	top: -45px;
 	color: black;
 }
 
 .fix-top-label{
-	top: -50px !important;
+	top: -45px !important;
 	color: black !important;
 }
 
@@ -60,6 +65,42 @@ input:focus~.form-label-text {
 
 .register-btn{
 	width: 150px;
+}
+
+
+.conditions{
+	max-height: 200px;
+	overflow: scroll;
+	width: 100%;
+}
+
+.conditions .list-group-item{
+	text-align: left;
+}
+
+.top-image{
+	/* background-image: url('/images/header.jpeg');
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;  */
+	background: url('/images/header.jpeg') no-repeat center center;
+	position: fixed;
+	background-size: cover;
+  	width: 100%;
+  	height: 300px; /*same height as jumbotron */
+  	top:0;
+  	left:0;
+  	z-index: -1;
+}
+
+.header-img{
+	width: 100%
+}
+
+.center-align{
+	text-align: center;
 }
 
 
