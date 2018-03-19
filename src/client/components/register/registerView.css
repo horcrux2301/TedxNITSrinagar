@@ -42,13 +42,17 @@
 	font-weight: normal;
 }
 
+.form-label-text{
+	padding-bottom: 5px;
+}
+
 input:focus~.form-label-text {
-	top: -45px;
+	top: -48px;
 	color: black;
 }
 
 .fix-top-label{
-	top: -45px !important;
+	top: -48px !important;
 	color: black !important;
 }
 
@@ -110,6 +114,10 @@ input[type='tel'],
 input[type='email'],
 textarea {
   font-size: 16px;
+}
+
+.margin-top{
+	margin-top: 5px;
 }
 
 
