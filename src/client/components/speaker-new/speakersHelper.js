@@ -35,15 +35,6 @@ const SpeakersList = {
 		twitter: 'https://twitter.com/Imam_A_Siddique',
 		desc: 'A remarkable image consultant and casting director by calling and a maestro of prolific originality; he is the very definition of exuberance. He laid the foundation of his career at a very young age and embarked on his journey as a fashion model. Shaped by his zeal for creativity and innovation, he is also a passionate poet, dancer and a photographer who is accredited with the launch of many fresh faces to the industry. Always on the lookout for ingenuity, he inspires the youth of today to hold onto one’s passion. Presenting the vivacious all-rounder Imam A Siddique.',
 	},
-	DurjoyDatta : {
-		name: 'Durjoy Datta',
-		subHeading: 'Novelist and Screen-Writer',
-		imgLg: 'https://i.imgur.com/iy4hk3x.jpg',
-		facebook : 'https://www.facebook.com/durjoydatta1/',
-		instagram: 'https://www.instagram.com/durjoydatta/?hl=en',
-		twitter: 'https://twitter.com/durjoydatta',
-		desc: 'A DTU student who transformed himself into a bestselling novelist with his fantabulous writing skills. The Young Achiever who chose to pursue his passion of writing after serving at Siemens and American Express. He has released a series of novels which has brought a cult and has struck a cord with the youth of India. With his novels, short stories and screenwriting, he has undoubtedly manifested his adaptability in writing. Of Course you know this man!. The youth icon, Durjoy Datta.',
-	},
 	SavitaBhanWakhlu : {
 		name: 'Savita Bhan Wakhlu',
 		subHeading: 'Managing Director Jagriti Communications',
@@ -61,15 +52,6 @@ const SpeakersList = {
 		instagram: '',
 		twitter: '',
 		desc: 'A Gastroenterogist by profession, accredited with discovering Hepaptitis E, treatment of Hepatic Hydatid cysts , a drug treatment to bleeding peptic ulcer, saving millions of lives worldwide. A household name in Kashmir due to his intrumental role in discovering major health problem of Hepatobiliary and pancreatic ascarisis and enlightening billions of lives due to his invariable efforts in providing his valuable assistance to the people of Kashmir and the medical fraternity in the form of his innumerable research works. He is Dr. Mohammad Khuroo, a man in no need of an introduction.',
-	},
-	YuvrajThakur : {
-		name: 'Yuvraj Thakur',
-		subHeading: 'Actor,Writer and Fitness Enthusiat',
-		imgLg: 'https://i.imgur.com/PDRNukg.jpg',
-		facebook : 'https://www.facebook.com/passionateyuvraj/',
-		instagram: 'https://www.instagram.com/yuv_thehuman/?hl=en',
-		twitter: 'https://twitter.com/thakuryuvi?lang=en',
-		desc: ' He is a young man with high demeanour and a plethora of dexterities to his credit. A perceptive observer with an impassioned sense of judgement, he is an intuitive learner of life itself. An actor and a model by profession, he fits in yet stands out from the troupe. Inspired by the intricacies of nature and existence, he is an animated and striking poet. Passionate about his strength and well-being, he is also a fitness enthusiast. He is a youthful and personable being with nothing yet everything. Presenting the high-spirited individualist.',
 	},
 	RamPunyani : {
 		name: 'Ram Puniyani',
