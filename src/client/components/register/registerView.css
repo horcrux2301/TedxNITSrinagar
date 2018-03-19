@@ -52,6 +52,7 @@ input:focus~.form-label-text {
 }
 
 input[type='tel']:focus~.form-label-text {
+	top: -52px !important;
 	left: 10px !important;
 }
 
@@ -135,10 +136,12 @@ textarea {
 
 .tel-label{
 	left: 44px !important;
+	top: -52px !important;
 }
 
 .tel-label-top{
 	left: 10px !important;
+	top: -52px !important;
 }
 
 .tel-input{
