@@ -11,7 +11,7 @@ class RegisterView extends React.Component{
 		this.state = {
 			name: '',
 			email: '',
-			isSubmittingForm: false,
+			isSubmittingForm: 0,
 			enroll: '',
 			phone: '',
 			registered: false
@@ -21,8 +21,7 @@ class RegisterView extends React.Component{
 	submitForm = (e) => {
 		e.preventDefault();
 		this.setState({
-			isSubmittingForm:true,
-			submitted: true
+			isSubmittingForm:1,
 		});
 		const id = uniqid(this.state.name + '- ');
 		fire.database().ref('registered/' + id).set({
@@ -33,7 +32,7 @@ class RegisterView extends React.Component{
 		})
 			.then( () => {
 				this.setState({
-					registered: true
+					isSubmittingForm: 2
 				});
 			});
 	}
@@ -56,7 +55,7 @@ class RegisterView extends React.Component{
 					<div className='row'>
 						<div className='col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6'>
 							{
-								this.state.registered===false
+								this.state.isSubmittingForm===0
 								&&
 								<form onSubmit={(e) => this.submitForm(e)} className='ticket-form'>
 									<div className="form-group">
@@ -68,7 +67,7 @@ class RegisterView extends React.Component{
 										<label className={this.state.email.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Email</label>
 									</div>
 									<div className="form-group">
-										<input type="number" className=" form-control"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
+										<input type="tel" size="10" minlength="10" maxlength="10" className=" form-control"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
 										<label className={this.state.phone.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Phone Number</label>
 									</div>
 									<div className="form-group">
@@ -106,9 +105,16 @@ class RegisterView extends React.Component{
 								
 							}
 							{
-								this.state.registered === true
+								this.state.isSubmittingForm === 1
 									&&
-									<div className='success-message'>
+									<div className='loading row'>
+										Loading
+									</div>
+							}
+							{
+								this.state.isSubmittingForm === 2
+									&&
+									<div className='success-message row'>
 										We have recieved you details and will contact you via email or phone.
 									</div>
 							}
