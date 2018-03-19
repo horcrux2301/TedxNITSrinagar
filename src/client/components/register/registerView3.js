@@ -73,7 +73,7 @@ class RegisterView extends React.Component{
 									</div>
 									<div className="form-group">
 										<input type="text" className=" form-control"  required onChange={(e) => this.inputChange(e,'enroll')} value={this.state.enroll}/>
-										<label className={this.state.phone.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Enrollment Number</label>
+										<label className={this.state.enroll.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Enrollment Number</label>
 									</div>
 									<div className='conditions'>
 										<ul className="list-group">
