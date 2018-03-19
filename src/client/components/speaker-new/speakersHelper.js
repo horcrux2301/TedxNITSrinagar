@@ -6,7 +6,7 @@ const SpeakersList = {
 		facebook : 'https://www.facebook.com/shah.faesal.3',
 		instagram: '',
 		twitter: 'hhttps://twitter.com/shahfaesal?lang=en',
-		desc: 'A man who has inspired and motivated not only the youth of Jammu and Kashmir but  the rest of country as well.A doctor, journalist and a civil servant who became the first and only IAS topper from J&K and currrently serving as The Managing Director of Power Development Corporation, J&K. He is dedicated to reform the society in such a way that ensures equal opportunities for oppressed and weaker sections of society. Presenting Dr Shah Faesal at TEDx NIT Srinagar who is going to deliver talk that would be rich in wisdom, experience and fulfillment.',
+		desc: 'A man who has inspired and motivated not only the youth of Jammu and Kashmir but the rest of country as well.A doctor, journalist and a civil servant who became the first and only IAS topper from J&K and is currrently serving as The Managing Director of Power Development Corporation, J&K. He is dedicated to reform the society in such a way that ensures equal opportunities for oppressed and weaker sections of society. Presenting Dr Shah Faesal at TEDx NIT Srinagar who is going to deliver a talk that would be rich in wisdom, experience and fulfillment.',
 	},
 	AnkurWarikoo : {
 		name: 'Ankur Warikoo',
@@ -15,7 +15,7 @@ const SpeakersList = {
 		facebook : 'https://www.facebook.com/awarikoo/',
 		instagram: 'https://www.instagram.com/warikoos/?hl=en',
 		twitter: 'https://twitter.com/warikoo',
-		desc: "An ISB alumnus, who is the Co-Founder and CEO of famous nearbuy.com .From  a budding physicist to mangement consultant and then a serial entrepreneur, he is a shining example of a person at a crossroad  &  eventually climbing the ladder of success. He is also a prolific writer, an enthusiastic photographer and an all around curious soul .He is an angel investor endorsing new entrepreneurs. Winner of the India's most promising Entrepreneur Award presenting Mr.Ankur Warikoo at TEDx NIT Srinagar.",
+		desc: 'An ISB alumnus, who is the Co-Founder and CEO of famous nearbuy.com .From  a budding physicist to mangement consultant and then a serial entrepreneur, he is a shining example of a person at a crossroad  &  eventually climbing the ladder of success. He is also a prolific writer, an enthusiastic photographer and an all around curious soul .He is an angel investor endorsing new entrepreneurs. Winner of the India\'s most promising Entrepreneur Award presenting Mr.Ankur Warikoo at TEDx NIT Srinagar.',
 	},
 	BabarAfsal : {
 		name: 'Babar Afsal',
