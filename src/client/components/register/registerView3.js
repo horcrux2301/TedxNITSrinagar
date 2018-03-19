@@ -67,8 +67,9 @@ class RegisterView extends React.Component{
 										<label className={this.state.email.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Email</label>
 									</div>
 									<div className="form-group">
-										<input type="tel" size="10" minlength="10" maxlength="10" className=" form-control"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
-										<label className={this.state.phone.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Phone Number</label>
+										<span class="input-group-addon">(+91)</span>
+										<input type="tel" size="10" minlength="10" maxlength="10" className=" form-control tel-input"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
+										<label className={this.state.phone.length ? 'form-label-text fix-top-label tel-label-top' : 'form-label-text tel-label'}>Phone Number</label>
 									</div>
 									<div className="form-group">
 										<input type="text" className=" form-control"  required onChange={(e) => this.inputChange(e,'enroll')} value={this.state.enroll}/>

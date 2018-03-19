@@ -51,6 +51,10 @@ input:focus~.form-label-text {
 	color: black;
 }
 
+input[type='tel']:focus~.form-label-text {
+	left: 10px !important;
+}
+
 .fix-top-label{
 	top: -48px !important;
 	color: black !important;
@@ -118,6 +122,27 @@ textarea {
 
 .margin-top{
 	margin-top: 5px;
+}
+
+.register-main .input-group-addon{
+	position: relative;
+    top: 26px;
+    display: inline-block;
+    left: -39px;
+    background: none;
+    border: none;
+}
+
+.tel-label{
+	left: 44px !important;
+}
+
+.tel-label-top{
+	left: 10px !important;
+}
+
+.tel-input{
+	text-indent: 34px;
 }
 
 
