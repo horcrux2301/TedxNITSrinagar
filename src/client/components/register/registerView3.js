@@ -23,7 +23,7 @@ class RegisterView extends React.Component{
 		this.setState({
 			isSubmittingForm:1,
 		});
-		const id = uniqid(this.state.name + '- ');
+		const id = uniqid(this.state.phone + '-');
 		fire.database().ref('registered/' + id).set({
 			username: this.state.name,
 			email: this.state.email,
