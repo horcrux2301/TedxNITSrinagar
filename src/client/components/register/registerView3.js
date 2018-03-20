@@ -117,7 +117,10 @@ class RegisterView extends React.Component{
 								this.state.isSubmittingForm === 2
 									&&
 									<div className='success-message row center-text'>
-										We have recieved you details and will contact you via email or phone.
+										<div className='check-icon'><i className="fa fa-check"></i></div>
+										You have successfully registered for the event.
+										<br/>
+										We will contact you via email and/or phone with futher updates.
 									</div>
 							}
 						</div>

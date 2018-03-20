@@ -164,7 +164,13 @@ textarea {
 .center-text{
 	display: flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+.check-icon{
+	position: absolute;
+    top: calc(25% - 20px);
 }
 
 

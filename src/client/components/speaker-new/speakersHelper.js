@@ -35,15 +35,6 @@ const SpeakersList = {
 		twitter: 'https://twitter.com/Imam_A_Siddique',
 		desc: 'A remarkable image consultant and casting director by calling and a maestro of prolific originality; he is the very definition of exuberance. He laid the foundation of his career at a very young age and embarked on his journey as a fashion model. Shaped by his zeal for creativity and innovation, he is also a passionate poet, dancer and a photographer who is accredited with the launch of many fresh faces to the industry. Always on the lookout for ingenuity, he inspires the youth of today to hold onto one’s passion. Presenting the vivacious all-rounder Imam A Siddique.',
 	},
-	SavitaBhanWakhlu : {
-		name: 'Savita Bhan Wakhlu',
-		subHeading: 'Managing Director Jagriti Communications',
-		imgLg: 'https://i.imgur.com/WOo9Cej.jpg',
-		facebook : 'https://www.facebook.com/savita.wakhlu?ref=br_rs',
-		instagram: '',
-		twitter: 'https://twitter.com/swakhlu',
-		desc: 'Managing Director of Jagriti Communications, which expertises and focuses exclusively on Indivisual and Organisational Training and Development. Also an Engineer, a certified personal and executive coach, a certified cross-cultural trainer and consultant and a certified EQ resource from FEIL, India. She has been credited with  a lot of work in personal effectiveness, management and leadership.She has co-authored a book  "Navigating The Maze" speak loads about living our lives productively, joyfully, and in peace and harmony in whatever role one choses to be. Also, an alumnus of NIT Srinagar, we present Savita Bhan Wakhlu.',
-	},
 	DrMSkhuroo: {
 		name: 'Dr. M.S. Khuroo',
 		subHeading: 'Discoverer of Hepatitis-E',
