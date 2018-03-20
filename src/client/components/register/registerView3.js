@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import fire from '../../../../fire';
 import { createBrowserHistory as history} from 'history/createBrowserHistory';
+import ReactGA from 'react-ga';
 import uniqid from 'uniqid';
 import './registerView.css';
 
@@ -17,6 +18,14 @@ class RegisterView extends React.Component{
 			registered: false
 		};
 	}
+
+
+	componentWillMount(){
+		ReactGA.initialize('UA-114968623-1');
+
+		ReactGA.pageview(this.props.location.pathname);
+	}
+
 
 	submitForm = (e) => {
 		e.preventDefault();
