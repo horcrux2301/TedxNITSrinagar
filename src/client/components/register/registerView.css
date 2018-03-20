@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Cagliostro');
 
 .center-row{
 	position: relative;
@@ -147,6 +147,25 @@ textarea {
 	text-indent: 34px;
 }
 
+.loading-message {
+	min-height: 450px;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.success-message{
+	min-height: 450px;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.center-text{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

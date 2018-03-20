@@ -108,14 +108,14 @@ class RegisterView extends React.Component{
 							{
 								this.state.isSubmittingForm === 1
 									&&
-									<div className='loading row'>
+									<div className='loading-message row center-text'>
 										Loading
 									</div>
 							}
 							{
 								this.state.isSubmittingForm === 2
 									&&
-									<div className='success-message row'>
+									<div className='success-message row center-text'>
 										We have recieved you details and will contact you via email or phone.
 									</div>
 							}
