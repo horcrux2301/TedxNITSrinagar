@@ -85,11 +85,12 @@ class RegisterView extends React.Component{
 												2. I will firmly abide by all the disciplinary rules and regulations as guided by National Institute of Technology Srinagar and TED Global community and maintain the courtesy of the event.
 											</li>
 											<li className="list-group-item">
-												3. If, in any case, asked to leave the premises of the venue, I will co-operate with the volunteers and vacate the premises.
+												3. Registering for TEDxNITSrinagar does not guarantee the final ticket for the event. The tickets will be allocated to random 100 people and will be confirmed only after final payment, as the TEDx guidelines restrict the number of audience to 100.
 											</li>
 											<li className="list-group-item">
-												4. In any situation, the decision of Organizers of Tedx NIT Srinagar will be final.
+												4. I have checked the website and studied all the rules and regulations of NIT Srinagar and TEDx and I am willing to register for the event.
 											</li>
+											
 										</ul>
 									</div>
 									<div className="checkbox center-align">
