@@ -79,16 +79,16 @@ class RegisterView extends React.Component{
 										<ul className="list-group">
 											<h2>Terms and Conditions</h2>
 											<li className="list-group-item">
-												1. I am a student of National Institute of Technology Srinagar and will produce a valid ID proof on the day of the event.
+												1. I am a student of National Institute of Technology, Srinagar and will produce a college ID card on the day of the event.
 											</li>
 											<li className="list-group-item">
-												2. I will firmly abide by all the disciplinary rules and regulations as guided by National Institute of Technology Srinagar and TED Global community and maintain the courtesy of the event.
+												2. I will firmly abide by all the disciplinary rules and regulations as guided by National Institute of Technology, Srinagar and TED Global community and will maintain the courtesy of the event.
 											</li>
 											<li className="list-group-item">
-												3. Registering for TEDxNITSrinagar does not guarantee the final ticket for the event. The tickets will be allocated to random 100 people and will be confirmed only after final payment, as the TEDx guidelines restrict the number of audience to 100.
+												3. Registering for TEDxNITSrinagar does not guarantee the final ticket for the event. The tickets will be allocated to random 100 people and will be confirmed only after the final payment, as the TEDx guidelines restrict the number of audience to 100.
 											</li>
 											<li className="list-group-item">
-												4. I have checked the website and studied all the rules and regulations of NIT Srinagar and TEDx and I am willing to register for the event.
+												4. I am willing to register for the event.
 											</li>
 											
 										</ul>
