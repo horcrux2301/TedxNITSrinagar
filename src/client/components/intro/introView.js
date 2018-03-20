@@ -143,7 +143,7 @@ class IntroView extends React.Component{
 								<i className='fa fa-instagram' onClick={() => this.openSocialMedia('https://www.instagram.com/tedxnitsrinagar','instagram')}></i>
 							</div>
 						</div>
-						<div>
+						<div className='footer-text-class'>
 							This independent TEDx event is operated under license from TED.
 						</div>
 					</div>

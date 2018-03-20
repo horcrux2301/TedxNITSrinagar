@@ -293,3 +293,11 @@
 .navbar-fixed-bottom{
 	margin-bottom: 5px;
 }
+
+.footer-text-class{
+	position: absolute;
+    bottom: 40px;
+    right: 10px;
+    font-size: 11px;
+    color: white;
+}
