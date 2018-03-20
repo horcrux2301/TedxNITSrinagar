@@ -22,7 +22,6 @@ class RegisterView extends React.Component{
 
 	componentWillMount(){
 		ReactGA.initialize('UA-114968623-1');
-
 		ReactGA.pageview(this.props.location.pathname);
 	}
 
@@ -37,7 +36,8 @@ class RegisterView extends React.Component{
 			username: this.state.name,
 			email: this.state.email,
 			phone: this.state.phone,
-			enroll: this.state.enroll
+			enroll: this.state.enroll,
+			timestamp: Date.now()
 		})
 			.then( () => {
 				this.setState({
@@ -59,7 +59,7 @@ class RegisterView extends React.Component{
 					<div className='row'>
 						{/* <div className='col-md-12 top-image'>
 						</div> */}
-						<img class="img-responsive header-img" src="/images/header.jpeg" alt="Chania"/>
+						<img className="img-responsive header-img" src="/images/header.jpeg" alt="Chania"/>
 					</div>
 					<div className='row'>
 						<div className='col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6'>
@@ -76,8 +76,8 @@ class RegisterView extends React.Component{
 										<label className={this.state.email.length ? 'form-label-text fix-top-label' : 'form-label-text'}>Email</label>
 									</div>
 									<div className="form-group">
-										<span class="input-group-addon">(+91)</span>
-										<input type="tel" size="10" minlength="10" maxlength="10" className=" form-control tel-input"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
+										<span className="input-group-addon">(+91)</span>
+										<input type="tel" size="10" minLength="10" maxLength="10" className=" form-control tel-input"  required onChange={(e) => this.inputChange(e,'phone')} value={this.state.phone}/>
 										<label className={this.state.phone.length ? 'form-label-text fix-top-label tel-label-top' : 'form-label-text tel-label'}>Phone Number</label>
 									</div>
 									<div className="form-group">
