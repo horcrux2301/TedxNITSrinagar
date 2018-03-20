@@ -29,7 +29,7 @@ class App extends React.Component{
 					<Switch>
 						<Route path='/blog/:name' component={SingleBlog}/>
 						<Route path='/home' component={Intro}/>
-						<Route path='/overview' component={Overview}/>
+						<Route path='/about' component={Overview}/>
 						<Route path='/blog' component={Blog}/>
 						<Route path='/register' component={RegiserTemp}/>
 						<Route path='/speakers' component={SpeakerNew}/>
