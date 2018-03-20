@@ -31,10 +31,10 @@ class HeaderView extends React.Component{
 			<div className="my-nav navbar navbar-default navbar-fixed-top">
 				<div className="container-fluid">
 					<div className="navbar-header">
-						<button className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onClick={this.toggleNavbar}>
-							<span className="icon icon-bar"></span>
-							<span className="icon icon-bar"></span>
-							<span className="icon icon-bar"></span>
+						<button className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onClick={this.toggleNavbar} style={{'borderColor': 'rgb(230,38,52'}}>
+							<span className="icon icon-bar" style={{'backgroundColor': 'rgb(230,38,52'}}></span>
+							<span className="icon icon-bar" style={{'backgroundColor': 'rgb(230,38,52'}}></span>
+							<span className="icon icon-bar" style={{'backgroundColor': 'rgb(230,38,52'}}></span>
 						</button>
 						<NavLink to='/' className="navbar-brand" onClick={this.closeNavbar} >TEDxNITSrinagar</NavLink>
 					</div>
