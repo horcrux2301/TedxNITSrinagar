@@ -129,7 +129,7 @@ class RegisterView extends React.Component{
 										<div className='check-icon'><i className="fa fa-check"></i></div>
 										You have successfully registered for the event.
 										<br/>
-										We will contact you via email and/or phone with futher updates.
+										We will contact you via email and/or phone with further updates.
 									</div>
 							}
 						</div>
