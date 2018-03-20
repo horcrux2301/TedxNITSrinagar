@@ -19,7 +19,7 @@ class RegisterView extends React.Component{
 			<div className='main-div height-100 bg-bl'>
 				<div className='container-fluid height-100'>
 					<div className='row center-div text-register'>
-						The registeration for the ticket goes live today at 2:00 PM
+						The registration for the tickets goes live today at 2:00 PM
 					</div>
 				</div>
 			</div>
