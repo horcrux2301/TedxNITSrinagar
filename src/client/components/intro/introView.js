@@ -98,39 +98,39 @@ class IntroView extends React.Component{
 
 		return(
 			<div className='intro-main'  >
-				<div className='container'>
+				<div className='container height-100'>
 					{/* <div className='row countdown-row'>
 						<div className='countdown-text'>
 							<CountDown options={OPTIONS} />
 						</div>
 					</div> */}
 					<div className='row heading-intro'>
-						<div className='col-xs-12 heading-main'>
+						{/* <div className='col-xs-12 heading-main'>
 						TEDx <span className='nit'>NIT</span> <span>Srinagar</span>
-						</div>
-						<div className='col-xs-12 heading-inspiring-main'>
+						</div> */}
+						{/* <div className='col-xs-12 heading-inspiring-main'>
 							<span className='heading-inspiring' ref = { (input) => this.textInput = input}>
 								{this.state.text}
 							</span>
-						</div>
-						<div className='col-xs-12 heading-date'>
+						</div> */}
+						{/* <div className='col-xs-12 heading-date'>
 						15<sup>th</sup> April, 2018
-						</div>
-					</div>
-					<div className='row register-row fadeIn'>
-						<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3'>
-							<div className='register-button '>
-								<Link to='/register' className='btn btn-default btn-lg btn-arrow'><span>Get Tickets<Icon/></span>
-								</Link>		
-							</div>
-						</div>
-						<div className='col-xs-6 col-sm-4 col-md-3'>
-							<div className='register-button '>
-								<Link to='/speakers' className='btn btn-default btn-lg btn-arrow'><span>View Speakers<Icon/></span></Link>
-							</div>
-						</div>
+						</div> */}
 					</div>
 					<div className='intro-footer navbar-fixed-bottom'>
+						<div className='row register-row fadeIn'>
+							<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3'>
+								<div className='register-button '>
+									<Link to='/register' className='btn btn-default btn-lg btn-arrow'><span>Get Tickets<Icon/></span>
+									</Link>		
+								</div>
+							</div>
+							<div className='col-xs-6 col-sm-4 col-md-3'>
+								<div className='register-button '>
+									<Link to='/speakers' className='btn btn-default btn-lg btn-arrow'><span>View Speakers<Icon/></span></Link>
+								</div>
+							</div>
+						</div>
 						<div className='row'>
 							<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 fb-ico'>
 								<i className='fa fa-facebook' onClick={() => this.openSocialMedia('https://www.facebook.com/tedxnitsrinagar','facebook')}></i>
