@@ -9,12 +9,23 @@
 
 .sponsor-heading{
     text-align: center;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 35px;
+    padding-top: 20px;
     font-weight: 600;
+    color:black;
+    font-family: 'Playfair Display', serif;
 }
 
 .sponsor-main{
-    background-color: black;
+    background-color: white;
 }
 
+
+.sponsor div{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

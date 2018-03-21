@@ -6,16 +6,19 @@ class SponsorsView extends React.Component{
 			<div className='main-div sponsor-main'>
 				<div className='container'>
 					<div className='row sponsor-heading'>
-						Sponsors for TEDx NIT Srinagar
+						Our Partners
 					</div>
 					<div className='row hdfc sponsor'>
-						<img className="img-responsive" src='images/hdfc.jpg'/>
+						<div> Banking Partners</div>
+						<img className="img-responsive" src='images/hdfc1.jpg'/>
 					</div>
 					<div className='row catalyst sponsor'>
-						<img className="img-responsive" src='images/catalyst.jpg'/>
+						<div> Education Partners</div>
+						<img className="img-responsive" src='images/catalyst1.jpg'/>
 					</div>
 					<div className='row mamta sponsor'>
-						<img className="img-responsive" src='images/mamta.jpg'/>
+						<div> Hospitality Partners</div>
+						<img className="img-responsive" src='images/mamta1.jpg'/>
 					</div>
 				</div>
 			</div>
