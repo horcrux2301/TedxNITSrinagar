@@ -14,11 +14,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './app.css';
 import 'font-awesome/css/font-awesome.min.css';
 import 'loaders.css/loaders.min.css';
+import log from 'console-emoji';
 
 class App extends React.Component{
 
 	componentWillMount(){
-
+		log(':white_check_mark:There is nothing to look for here. Go to our social media pages linked above :100: :heart: :arrow_up:');
 	}
 
 	render(){
