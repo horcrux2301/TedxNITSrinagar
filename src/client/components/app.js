@@ -7,7 +7,7 @@ import { Contact } from './contact';
 import { Intro } from './intro';
 import { Overview } from './overview';
 import { RegiserTemp } from './register';
-// import { Sponsors } from './sponsors';
+import { Sponsors } from './sponsors';
 // import { Venue } from './venue';
 import {SpeakerNew} from './speaker-new';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -35,6 +35,7 @@ class App extends React.Component{
 						<Route path='/register' component={RegiserTemp}/>
 						<Route path='/speakers' component={SpeakerNew}/>
 						<Route path='/contact' component={Contact}/> 
+						<Route path='/temp' component={Sponsors}/>
 						{/* <Route path='/temp' component={RegiserTemp}/>  */}
 						{/* <Route path='/sponsors' component={Sponsors}/>
 						<Route path='/venue' component={Venue}/>

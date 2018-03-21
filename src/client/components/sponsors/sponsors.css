@@ -1,0 +1,20 @@
+.sponsor{
+    padding: 50px;
+}
+
+.sponsor img{
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.sponsor-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.sponsor-main{
+    background-color: black;
+}
+
