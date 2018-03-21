@@ -27,25 +27,25 @@ class IntroView extends React.Component{
 		ReactGA.pageview(this.props.location.pathname);
 	}
 
-	componentDidMount(){
-		this.interval = setTimeout(this.animatedOne,500);
-		i=0;
-	}
+	// componentDidMount(){
+	// 	this.interval = setTimeout(this.animatedOne,500);
+	// 	i=0;
+	// }
 
-	animatedOne = () => {
-		const txt = '"always inspiring more"';
-		const speed = 130;
-		if (i < txt.length) {
-			let temp = this.state.text;
-			temp+=txt.charAt(i);
-			this.textInput.innerHTML += txt.charAt(i);
-			i++;
-			setTimeout(this.animatedOne, speed);
-			this.setState({
-				text: temp
-			});
-		}
-	}
+	// animatedOne = () => {
+	// 	const txt = '"always inspiring more"';
+	// 	const speed = 130;
+	// 	if (i < txt.length) {
+	// 		let temp = this.state.text;
+	// 		temp+=txt.charAt(i);
+	// 		this.textInput.innerHTML += txt.charAt(i);
+	// 		i++;
+	// 		setTimeout(this.animatedOne, speed);
+	// 		this.setState({
+	// 			text: temp
+	// 		});
+	// 	}
+	// }
 
 
 	scrollText = () => {
@@ -153,9 +153,9 @@ class IntroView extends React.Component{
 		);
 	}
 
-	componentWillUnmount(){
-		clearInterval(this.interval);
-	}
+	// componentWillUnmount(){
+	// 	clearInterval(this.interval);
+	// }
 }
 
 export default IntroView;
