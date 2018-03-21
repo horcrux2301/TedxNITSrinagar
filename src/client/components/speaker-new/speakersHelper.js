@@ -5,7 +5,7 @@ const SpeakersList = {
 		imgLg: 'https://i.imgur.com/yQX4tU0.jpg',
 		facebook : 'https://www.facebook.com/shah.faesal.3',
 		instagram: '',
-		twitter: 'hhttps://twitter.com/shahfaesal?lang=en',
+		twitter: 'https://twitter.com/shahfaesal?lang=en',
 		desc: 'A man who has inspired and motivated not only the youth of Jammu and Kashmir but the rest of country as well.A doctor, journalist and a civil servant who became the first and only IAS topper from J&K and is currrently serving as The Managing Director of Power Development Corporation, J&K. He is dedicated to reform the society in such a way that ensures equal opportunities for oppressed and weaker sections of society. Presenting Dr Shah Faesal at TEDx NIT Srinagar who is going to deliver a talk that would be rich in wisdom, experience and fulfillment.',
 	},
 	AnkurWarikoo : {
