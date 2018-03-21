@@ -105,7 +105,8 @@ input[type='tel']:focus~.form-label-text {
 }
 
 .header-img{
-	width: 100%
+	width: 100%;
+	max-height: 325px;
 }
 
 .center-align{
