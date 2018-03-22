@@ -26,15 +26,6 @@ const SpeakersList = {
 		twitter: 'https://twitter.com/babarafzal?lang=en',
 		desc: 'The man who quit his corporate career and silicon valley lifestyle to become a shepherd and protect pashmina. He aimed to find an economic solution for the communities that are linked to pashmina industries in India. He gave up everything to dedicate himself to a cause he believes in: Preserving the pashmina ecosystem of Kashmir.',
 	},
-	ImamSiddique : {
-		name: 'Imam A Siddique',
-		subHeading: 'Style Icon',
-		imgLg: 'https://i.imgur.com/PgRyA2k.jpg',
-		facebook : 'https://www.facebook.com/Spotlight.ImamSiddique/',
-		instagram: 'https://www.instagram.com/imam_a_siddique/',
-		twitter: 'https://twitter.com/Imam_A_Siddique',
-		desc: 'A remarkable image consultant and casting director by calling and a maestro of prolific originality; he is the very definition of exuberance. He laid the foundation of his career at a very young age and embarked on his journey as a fashion model. Shaped by his zeal for creativity and innovation, he is also a passionate poet, dancer and a photographer who is accredited with the launch of many fresh faces to the industry. Always on the lookout for ingenuity, he inspires the youth of today to hold onto one’s passion. Presenting the vivacious all-rounder Imam A Siddique.',
-	},
 	DrMSkhuroo: {
 		name: 'Dr. M.S. Khuroo',
 		subHeading: 'Discoverer of Hepatitis-E',

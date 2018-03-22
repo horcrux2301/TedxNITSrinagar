@@ -10,15 +10,15 @@ class SponsorsView extends React.Component{
 					</div>
 					<div className='row hdfc sponsor'>
 						<div> Banking Partners</div>
-						<img className="img-responsive" src='images/hdfc1.jpg'/>
+						<img className="img-responsive" src='images/hdfc6.jpg'/>
 					</div>
 					<div className='row catalyst sponsor'>
 						<div> Education Partners</div>
-						<img className="img-responsive" src='images/catalyst1.jpg'/>
+						<img className="img-responsive" src='images/catalyst6.jpg'/>
 					</div>
 					<div className='row mamta sponsor'>
 						<div> Hospitality Partners</div>
-						<img className="img-responsive" src='images/mamta1.jpg'/>
+						<img className="img-responsive" src='images/mamta6.jpg'/>
 					</div>
 				</div>
 			</div>
