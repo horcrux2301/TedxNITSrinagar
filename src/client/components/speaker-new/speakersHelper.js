@@ -34,7 +34,7 @@ const SpeakersList = {
 		instagram: '',
 		twitter: '',
 		desc: 'A Gastroenterogist by profession, accredited with discovering Hepaptitis E, treatment of Hepatic Hydatid cysts , a drug treatment to bleeding peptic ulcer, saving millions of lives worldwide. A household name in Kashmir due to his intrumental role in discovering major health problem of Hepatobiliary and pancreatic ascarisis and enlightening billions of lives due to his invariable efforts in providing his valuable assistance to the people of Kashmir and the medical fraternity in the form of his innumerable research works. He is Dr. Mohammad Khuroo, a man in no need of an introduction.',
-	}
+	},
 	SoveshMohapatra : {
 		name: 'Sovesh Mohapatra',
 		subHeading: 'Junior Scientist',
