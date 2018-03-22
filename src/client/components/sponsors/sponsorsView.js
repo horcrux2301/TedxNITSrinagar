@@ -1,6 +1,13 @@
 import React from 'react';
 import './sponsors.css';
+import ReactGA from 'react-ga';
 class SponsorsView extends React.Component{
+
+	componentWillMount(){
+		ReactGA.initialize('UA-114968623-1');
+		ReactGA.pageview(this.props.location.pathname);
+	}
+
 	render(){
 		return(
 			<div className='main-div sponsor-main'>

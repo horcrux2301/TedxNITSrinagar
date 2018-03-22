@@ -34,16 +34,7 @@ const SpeakersList = {
 		instagram: '',
 		twitter: '',
 		desc: 'A Gastroenterogist by profession, accredited with discovering Hepaptitis E, treatment of Hepatic Hydatid cysts , a drug treatment to bleeding peptic ulcer, saving millions of lives worldwide. A household name in Kashmir due to his intrumental role in discovering major health problem of Hepatobiliary and pancreatic ascarisis and enlightening billions of lives due to his invariable efforts in providing his valuable assistance to the people of Kashmir and the medical fraternity in the form of his innumerable research works. He is Dr. Mohammad Khuroo, a man in no need of an introduction.',
-	},
-	RamPunyani : {
-		name: 'Ram Puniyani',
-		subHeading: 'Social Activist',
-		imgLg: 'https://i.imgur.com/vsb8scp.jpg',
-		facebook : 'https://www.facebook.com/ram.puniyani',
-		instagram: 'https://twitter.com/rpuni?lang=en',
-		twitter: 'https://twitter.com/rpuni?lang=en',
-		desc: 'A former doctor and a biomedical engineering professor, who took voluntary retirement to dedicate himself to the noble cause of communal harmony in India.He has been putting his mind, body and soul in advocating human rights, promoting secularism, battling the extremism and constantly confronting the rising tide of religious fundamentalism in India.Today, he has been working towards engineering a secular and a plural society, as envisaged by our constitution. He is the voice of voiceless in the society.',
-	},
+	}
 	SoveshMohapatra : {
 		name: 'Sovesh Mohapatra',
 		subHeading: 'Junior Scientist',
