@@ -14,7 +14,7 @@ class SponsorsView extends React.Component{
 					</div>
 					<div className='row catalyst sponsor'>
 						<div> Education Partners</div>
-						<img className="img-responsive" src='images/catalyst6.jpg'/>
+						<img className="img-responsive" src='images/catalyst10.jpg'/>
 					</div>
 					<div className='row mamta sponsor'>
 						<div> Hospitality Partners</div>

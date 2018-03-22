@@ -35,7 +35,7 @@ class App extends React.Component{
 						<Route path='/register' component={RegiserTemp}/>
 						<Route path='/speakers' component={SpeakerNew}/>
 						<Route path='/contact' component={Contact}/> 
-						<Route path='/temp' component={Sponsors}/>
+						<Route path='/sponsors' component={Sponsors}/>
 						{/* <Route path='/temp' component={RegiserTemp}/>  */}
 						{/* <Route path='/sponsors' component={Sponsors}/>
 						<Route path='/venue' component={Venue}/>
