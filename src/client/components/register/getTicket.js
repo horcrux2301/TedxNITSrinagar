@@ -22,6 +22,8 @@ class GetTicket extends React.Component{
 				purchased: true
 			});
 		}, false);
+		ReactGA.initialize('UA-114968623-1');
+		ReactGA.pageview(this.props.location.pathname);
 	}
 
 	submitForm = (e) => {
