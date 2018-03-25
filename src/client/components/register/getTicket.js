@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import fire from '../../../../fire';
 import ReactGA from 'react-ga';
 import './getTicket.css';
-import * as list from '../../../../data.json';
 
 class GetTicket extends React.Component{
 
