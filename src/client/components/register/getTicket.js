@@ -1,7 +1,7 @@
 import React from 'react';
 import fire from '../../../../fire';
-import	* as list  from '../../../../convertcsv.json';
-import * as list1 from '../../../../data.json';
+// import	* as list  from '../../../../convertcsv.json';
+// import * as list1 from '../../../../data.json';
 
 class GetTicket extends React.Component{
 
@@ -14,7 +14,7 @@ class GetTicket extends React.Component{
 	}
 	
 	componentWillMount(){
-		console.log(Object.keys(list1).length);
+		
 		// fire.database().ref('ticket/' + '9906564885-jezhfbdv').set({
 		// 	name: 'Waris Anwar',
 		// 	isValid: true,
