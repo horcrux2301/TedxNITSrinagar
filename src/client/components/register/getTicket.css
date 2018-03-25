@@ -1,0 +1,64 @@
+.payment-btn a{
+    color: black;
+}
+
+.card-text{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+}
+
+.name-text{
+    font-size: 20px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.success-text{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.coupon-form .coupon-input{
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.get-ticket-main{
+    background-color: black;
+}
+
+.coupon-label{
+    color: white !important;
+}
+
+
+.get-ticket-main .register-btn {
+	border-radius: 4px;
+	width: 190px;
+	border-color: rgb(232,33,45);
+	background-color: rgb(232,33,45);
+    color: white;
+    padding: 8px;
+}
+
+.get-ticket-main .register-btn:hover{
+	border-color: rgb(232,33,45);
+	background-color: rgb(232,33,45);
+	color: white;
+}
+
+.get-ticket-main .register-btn span{
+	color: white;
+}
+
+
+.not-valid{
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+}

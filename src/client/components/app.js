@@ -32,7 +32,7 @@ class App extends React.Component{
 						<Route path='/home' component={Intro}/>
 						<Route path='/about' component={Overview}/>
 						<Route path='/blog' component={Blog}/>
-						<Route path='/register' component={RegiserTemp}/>
+						{/* <Route path='/register' component={RegiserTemp}/> */}
 						<Route path='/speakers' component={SpeakerNew}/>
 						<Route path='/contact' component={Contact}/> 
 						<Route path='/sponsors' component={Sponsors}/>

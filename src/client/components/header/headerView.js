@@ -42,7 +42,7 @@ class HeaderView extends React.Component{
 						<ul className="nav navbar-nav navbar-right">
 							<li><NavLink to='/about' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >About</NavLink></li>
 							<li><NavLink to='/speakers' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >Speakers</NavLink></li>
-							<li><NavLink to='/register' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >Register</NavLink></li>
+							{/* <li><NavLink to='/register' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >Register</NavLink></li> */}
 							<li><NavLink to='/sponsors' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >Sponsors</NavLink></li>
 							{/* <li><NavLink to='/venue' className='nav-link' activeStyle={{ backgroundColor: 'red' }} onClick={this.toggleNavbar} >Venue</NavLink></li>
 							

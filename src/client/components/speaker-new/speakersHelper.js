@@ -44,6 +44,24 @@ const SpeakersList = {
 		twitter: 'https://twitter.com/MohapatraSovesh',
 		desc: 'A high school lad from a small town in Odisha and a child prodigy who is a recipient of National Child Award.He was the youngest speaker to address the delegates at Indian Science Congress 2016. He has also represented his home state at National Childrens Science Congress in 2015.He started his research on Power Generation in Grade-4, a rare thing of its kind and as a result of which he was called upon by Oxford University for research with Dr. Neil Aston, a noted scientist.After 5 years of sheer research in Oxford University, he developed a project on Domestic Water Power Plant form Multiple Uses, using his experimental and theoretical savvy.Apart from this, he has numerous awards and literature publications in his credit.He is also a social worker, being the founder and co-founder of various NGOs.He also holds a strong field in music and instrumentation and equally skilled with them.',
 	},
+	YurvajThakur : {
+		name: 'Yurvaj Thakur',
+		subHeading: 'Fitness Model,Actor and Writer',
+		imgLg: 'https://i.imgur.com/PDRNukg.jpg',
+		facebook : 'https://www.facebook.com/passionateyuvraj/',
+		instagram: 'https://www.instagram.com/yuv_thehuman/?hl=en',
+		twitter: 'https://twitter.com/thakuryuvi?lang=en',
+		desc: 'A young man with high demeanour and a plethora of dexterities to his credit. A perceptive observer with an impassioned sense of judgement, he is an intuitive learner of life itself. An actor and model by profession, he fits in yet stands out from the troupe. Inspired by the intricacies of nature and existence, he is an animated and striking poet. Passionate about his strength and well-being, he is also a fitness enthusiast. He is a youthful and personable being with nothing yet everything. Presenting the high-spirited individualist: Yuvraj Thakur.',
+	},
+	ImranKhan : {
+		name: 'Imran Khan',
+		subHeading: 'Journalist turned Entrepreneur',
+		imgLg: 'https://i.imgur.com/EmBZa3F.jpg',
+		facebook : ' https://www.facebook.com/motorcafekashmir/',
+		instagram: ' https://www.instagram.com/themotorcafe/?hl=en',
+		twitter: '',
+		desc: 'A Journalist turned Entrepreneur whose passion lead to Excellence. He used to work earlier with the leading National News Channel and also, contributed to the regional media of Kashmir. He left his highly promising Career to pursue his passion and started Kashmir Shawl Atelier in Spain which served as the first online platform for Pashmina and Kashmir’s crafts, which promoted its regional diversity through social awareness. He is also, a proud owner of the theme cafe named \'MotorCafe\' in the valley. Setting the example of following your passion amidst all odds and realising your dreams, we present the highly talented Imran khan at TEDxNITSrinagar.'
+	}
 };
 
 export default SpeakersList;
