@@ -89,9 +89,9 @@ class GetTicket extends React.Component{
 										<input type="text" className="form-control coupon-input" required onChange={(e) => this.inputChange(e)} value={this.state.promoCode}/>
 										<label className={this.state.promoCode.length ? 'form-label-text fix-top-label coupon-label' : 'form-label-text coupon-label'}>Promo Code</label>
 									</div>
-									<div className='register-btn-div center-align'>
+									<div className='register-btn-div text-center'>
 										<button type="submit" className="btn btn-default register-btn">
-											<span>Submit</span>
+											Submit
 										</button>
 									</div>
 								</form>   
