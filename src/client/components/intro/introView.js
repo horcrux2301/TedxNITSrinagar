@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
 const OPTIONS = { date: '04/29/2018 11:00 AM', prefix: 'Until TedEx Event!'};
 const scrollTextArray = ['Ideas','Innovation','Science','Inspiration'];
-
+import fire from '../../../../fire';
 let i=0;
 
 class IntroView extends React.Component{
@@ -22,31 +22,69 @@ class IntroView extends React.Component{
 	}
 
 	componentWillMount(){
+		// let str = '';
+		// Object.keys(list1).map( (i) => {
+		// 	let t1 = list1[i];
+		// 	let x = {};
+		// 	Object.keys(t1).map( (j) => {
+		// 		x.couponCode = t1[0];
+		// 		x.email = t1[1];
+		// 		x.enroll = t1[2];
+		// 		x.mobile = t1[4];
+		// 		x.name = t1[5];
+		// 	});
+		// 	str += '"' + x.couponCode + '":' + JSON.stringify(x) + ',';
+		// });
+		// console.log(Object.keys(list).length);
+		// console.log(Object.keys(list1).length);
+		// console.log(list);
+		// console.log(Object.keys(list).length);
+		// console.log(list);
+		// Object.keys(list).map((i) => {
+		// 	let blah = list[i];
+		// 	let id = blah.couponCode;
+		// 	if(id!==undefined && id!==''){
+		// 		fire.database().ref('coupons/' + id).set({
+		// 			name:blah.name,
+		// 			couponCode:blah.couponCode,
+		// 			email:blah.email,
+		// 			enroll:blah.enroll,
+		// 			contact:blah.contact
+		// 		});
+		// 	}
+		// 	else{
+		// 		console.log(blah);
+		// 	}
+		// });
+		// let ans = '';
+		// let cnt=0;
+		// console.log(Object.keys(list).length);
+		// Object.keys(list).map((i) => {
+		// 	// let blah = list[i];
+		// 	// ans+= '"' + blah.couponCode + '"' + ':' + JSON.stringify(blah) + ',';
+		// 	let blah = list[i];
+		// 	cnt++;
+		// 	console.log(blah.name, cnt);
+		// 	let id = blah.couponCode;
+		// 	if(id!==undefined){
+		// 		fire.database().ref('coupons/' + id).set({
+		// 			name:blah.name,
+		// 			couponCode:blah.couponCode,
+		// 			email:blah.email,
+		// 			enroll:blah.enroll,
+		// 			contact:blah.contact
+		// 		});
+		// 	}
+		// 	else{
+		// 		console.log(blah);
+		// 	}
+		// });
+
+		// console.log(ans);
 		ReactGA.initialize('UA-114968623-1');
 
 		ReactGA.pageview(this.props.location.pathname);
 	}
-
-	// componentDidMount(){
-	// 	this.interval = setTimeout(this.animatedOne,500);
-	// 	i=0;
-	// }
-
-	// animatedOne = () => {
-	// 	const txt = '"always inspiring more"';
-	// 	const speed = 130;
-	// 	if (i < txt.length) {
-	// 		let temp = this.state.text;
-	// 		temp+=txt.charAt(i);
-	// 		this.textInput.innerHTML += txt.charAt(i);
-	// 		i++;
-	// 		setTimeout(this.animatedOne, speed);
-	// 		this.setState({
-	// 			text: temp
-	// 		});
-	// 	}
-	// }
-
 
 	scrollText = () => {
 		let length = scrollTextArray.length;
@@ -121,7 +159,7 @@ class IntroView extends React.Component{
 						<div className='row register-row fadeIn'>
 							<div className='col-xs-offset-0 col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3'>
 								<div className='register-button '>
-									<Link to='/register' className='btn btn-default btn-lg btn-arrow'><span>Get Tickets<Icon/></span>
+									<Link to='/get-tickets' className='btn btn-default btn-lg btn-arrow'><span>Get Tickets<Icon/></span>
 									</Link>		
 								</div>
 							</div>
